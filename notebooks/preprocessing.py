@@ -52,8 +52,6 @@ class preprocess_data:
         self.html   = html
         self.logger = logger
         
-        self.html += """</head><body><h1><center>Processing Report</center></h1>"""
-        
     def consistency(self):
         """
         This function check the consistency of the features in sense
