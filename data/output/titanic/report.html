@@ -1,0 +1,117 @@
+<html><head><link rel = "stylesheet" href = "style.css"/></head><body><h1><center>Processing Report</center></h1><h2><center>Features' Consistency:</center></h2><h3>Qualitative features removed:</h3><b>PassengerId</b> removed because has more than 10 categories <br>Top 5 categories<table border="1" class="dataframe mystyle">
+  <thead>
+    <tr style="text-align: center;">
+      <th>PassengerId</th>
+      <th>relative_frecuency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>0.001122</td>
+    </tr>
+    <tr>
+      <td>599</td>
+      <td>0.002245</td>
+    </tr>
+    <tr>
+      <td>588</td>
+      <td>0.003367</td>
+    </tr>
+    <tr>
+      <td>589</td>
+      <td>0.004489</td>
+    </tr>
+    <tr>
+      <td>590</td>
+      <td>0.005612</td>
+    </tr>
+  </tbody>
+</table><br><b>Name</b> removed because has more than 10 categories <br>Top 5 categories<table border="1" class="dataframe mystyle">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Name</th>
+      <th>relative_frecuency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Newsom, Miss. Helen Monypeny</td>
+      <td>0.001122</td>
+    </tr>
+    <tr>
+      <td>Matthews, Mr. William John</td>
+      <td>0.002245</td>
+    </tr>
+    <tr>
+      <td>Klasen, Mr. Klas Albin</td>
+      <td>0.003367</td>
+    </tr>
+    <tr>
+      <td>Swift, Mrs. Frederick Joel (Margaret Welles Barron)</td>
+      <td>0.004489</td>
+    </tr>
+    <tr>
+      <td>Carlsson, Mr. August Sigfrid</td>
+      <td>0.005612</td>
+    </tr>
+  </tbody>
+</table><br><b>Ticket</b> removed because has more than 10 categories <br>Top 5 categories<table border="1" class="dataframe mystyle">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Ticket</th>
+      <th>relative_frecuency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>347082</td>
+      <td>0.007856</td>
+    </tr>
+    <tr>
+      <td>CA. 2343</td>
+      <td>0.015713</td>
+    </tr>
+    <tr>
+      <td>1601</td>
+      <td>0.023569</td>
+    </tr>
+    <tr>
+      <td>CA 2144</td>
+      <td>0.030303</td>
+    </tr>
+    <tr>
+      <td>347088</td>
+      <td>0.037037</td>
+    </tr>
+  </tbody>
+</table><br><b>Cabin</b> removed because has more than 10 categories <br>Top 5 categories<table border="1" class="dataframe mystyle">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Cabin</th>
+      <th>relative_frecuency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B96 B98</td>
+      <td>0.019608</td>
+    </tr>
+    <tr>
+      <td>C23 C25 C27</td>
+      <td>0.039216</td>
+    </tr>
+    <tr>
+      <td>G6</td>
+      <td>0.058824</td>
+    </tr>
+    <tr>
+      <td>E101</td>
+      <td>0.073529</td>
+    </tr>
+    <tr>
+      <td>F33</td>
+      <td>0.088235</td>
+    </tr>
+  </tbody>
+</table><br><h3>Quantitative features removed:</h3>None quantitative feature was removed<h2><center>Handle missing values:</center></h2>Feature Age was imputer with the method median value = 28.0<br>Feature Embarked was imputer with "other"<br>None feature was removed<h2><center>Outlier detection:</center></h2>Local Outlier Factor (LOF) method used<br>Total outliers found: 146<h2><center>Statistical Analysis:</center></h2><div style="width:900px; margin:0 auto;"><img src = "images/dist_Age_vs_Survived.png"><img src = "images/ci_Age_vs_Survived.png"></div><div style="width:900px; margin:0 auto;"><img src = "images/dist_SibSp_vs_Survived.png"><img src = "images/ci_SibSp_vs_Survived.png"></div><div style="width:900px; margin:0 auto;"><img src = "images/dist_Parch_vs_Survived.png"><img src = "images/ci_Parch_vs_Survived.png"></div><div style="width:900px; margin:0 auto;"><img src = "images/dist_Fare_vs_Survived.png"><img src = "images/ci_Fare_vs_Survived.png"></div><div style="width:600px; margin:0 auto;"><img src = "images/correlation_heatmap.png"></div><br><div style="width:600px; margin:0 auto;"><img src = "images/dist_Pclass_vs_Survived.png"></div><br><div style="width:600px; margin:0 auto;"><img src = "images/dist_Sex_vs_Survived.png"></div><br><div style="width:600px; margin:0 auto;"><img src = "images/dist_Embarked_vs_Survived.png"></div><br><br></body></html>
