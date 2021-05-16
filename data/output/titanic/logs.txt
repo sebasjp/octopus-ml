@@ -1,0 +1,2355 @@
+2021-05-15 18:27:23,051 INFO: Started to check the features consistency
+2021-05-15 18:27:23,085 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 18:27:23,086 INFO: Consistency values finished!
+2021-05-15 18:27:23,090 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 18:27:23,092 INFO: Feature Embarked was imputer with "other"
+2021-05-15 18:27:23,093 INFO: None feature were removed because the missing values
+2021-05-15 18:27:23,093 INFO: Handle missing values finished!
+2021-05-15 18:27:36,570 INFO: Started to check the features consistency
+2021-05-15 18:27:36,570 INFO: Started to check the features consistency
+2021-05-15 18:27:36,603 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 18:27:36,603 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 18:27:36,604 INFO: Consistency values finished!
+2021-05-15 18:27:36,604 INFO: Consistency values finished!
+2021-05-15 18:27:36,607 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 18:27:36,607 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 18:27:36,609 INFO: Feature Embarked was imputer with "other"
+2021-05-15 18:27:36,609 INFO: Feature Embarked was imputer with "other"
+2021-05-15 18:27:36,610 INFO: None feature were removed because the missing values
+2021-05-15 18:27:36,610 INFO: None feature were removed because the missing values
+2021-05-15 18:27:36,610 INFO: Handle missing values finished!
+2021-05-15 18:27:36,610 INFO: Handle missing values finished!
+2021-05-15 18:27:36,613 INFO: Detect missing values started
+2021-05-15 18:27:36,613 INFO: Detect missing values started
+2021-05-15 18:27:36,615 INFO: Isolation Forest method selected
+2021-05-15 18:27:36,615 INFO: Isolation Forest method selected
+2021-05-15 18:27:37,005 INFO: Detected 5 outliers
+2021-05-15 18:27:37,005 INFO: Detected 5 outliers
+2021-05-15 18:27:37,005 INFO: Detect missing values finished
+2021-05-15 18:27:37,005 INFO: Detect missing values finished
+2021-05-15 19:22:57,645 INFO: Started to check the features consistency
+2021-05-15 19:22:57,683 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 19:22:57,685 INFO: Consistency values finished!
+2021-05-15 19:22:57,692 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 19:22:57,696 INFO: Feature Embarked was imputer with "other"
+2021-05-15 19:22:57,698 INFO: None feature were removed because the missing values
+2021-05-15 19:22:57,699 INFO: Handle missing values finished!
+2021-05-15 19:22:57,702 INFO: Detect outliers started
+2021-05-15 19:22:57,703 INFO: Isolation Forest method selected
+2021-05-15 19:22:58,228 INFO: Detected 5 outliers
+2021-05-15 19:22:58,230 INFO: Detect outliers finished
+2021-05-15 19:23:12,089 INFO: Started to check the features consistency
+2021-05-15 19:23:12,089 INFO: Started to check the features consistency
+2021-05-15 19:23:12,127 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 19:23:12,127 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 19:23:12,130 INFO: Consistency values finished!
+2021-05-15 19:23:12,130 INFO: Consistency values finished!
+2021-05-15 19:23:12,135 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 19:23:12,135 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 19:23:12,138 INFO: Feature Embarked was imputer with "other"
+2021-05-15 19:23:12,138 INFO: Feature Embarked was imputer with "other"
+2021-05-15 19:23:12,140 INFO: None feature were removed because the missing values
+2021-05-15 19:23:12,140 INFO: None feature were removed because the missing values
+2021-05-15 19:23:12,142 INFO: Handle missing values finished!
+2021-05-15 19:23:12,142 INFO: Handle missing values finished!
+2021-05-15 19:23:12,145 INFO: Detect outliers started
+2021-05-15 19:23:12,145 INFO: Detect outliers started
+2021-05-15 19:23:12,146 INFO: Isolation Forest method selected
+2021-05-15 19:23:12,146 INFO: Isolation Forest method selected
+2021-05-15 19:23:12,672 INFO: Detected 5 outliers
+2021-05-15 19:23:12,672 INFO: Detected 5 outliers
+2021-05-15 19:23:12,674 INFO: Detect outliers finished
+2021-05-15 19:23:12,674 INFO: Detect outliers finished
+2021-05-15 20:07:32,992 INFO: Started to check the features consistency
+2021-05-15 20:07:32,992 INFO: Started to check the features consistency
+2021-05-15 20:07:32,992 INFO: Started to check the features consistency
+2021-05-15 20:07:33,032 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 20:07:33,032 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 20:07:33,032 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 20:07:33,035 INFO: Consistency values finished!
+2021-05-15 20:07:33,035 INFO: Consistency values finished!
+2021-05-15 20:07:33,035 INFO: Consistency values finished!
+2021-05-15 20:07:33,043 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 20:07:33,043 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 20:07:33,043 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 20:07:33,046 INFO: Feature Embarked was imputer with "other"
+2021-05-15 20:07:33,046 INFO: Feature Embarked was imputer with "other"
+2021-05-15 20:07:33,046 INFO: Feature Embarked was imputer with "other"
+2021-05-15 20:07:33,047 INFO: None feature were removed because the missing values
+2021-05-15 20:07:33,047 INFO: None feature were removed because the missing values
+2021-05-15 20:07:33,047 INFO: None feature were removed because the missing values
+2021-05-15 20:07:33,048 INFO: Handle missing values finished!
+2021-05-15 20:07:33,048 INFO: Handle missing values finished!
+2021-05-15 20:07:33,048 INFO: Handle missing values finished!
+2021-05-15 20:07:33,051 INFO: Detect outliers started
+2021-05-15 20:07:33,051 INFO: Detect outliers started
+2021-05-15 20:07:33,051 INFO: Detect outliers started
+2021-05-15 20:07:33,053 INFO: Isolation Forest method selected
+2021-05-15 20:07:33,053 INFO: Isolation Forest method selected
+2021-05-15 20:07:33,053 INFO: Isolation Forest method selected
+2021-05-15 20:07:33,571 INFO: Detected 5 outliers
+2021-05-15 20:07:33,571 INFO: Detected 5 outliers
+2021-05-15 20:07:33,571 INFO: Detected 5 outliers
+2021-05-15 20:07:33,573 INFO: Detect outliers finished
+2021-05-15 20:07:33,573 INFO: Detect outliers finished
+2021-05-15 20:07:33,573 INFO: Detect outliers finished
+2021-05-15 20:13:35,012 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:13:35,012 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:13:35,012 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:13:35,016 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:13:35,016 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:13:35,016 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:13:35,019 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:13:35,019 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:13:35,019 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:14:40,328 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:14:40,328 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:14:40,328 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:14:40,331 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:14:40,331 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:14:40,331 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:14:40,334 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:14:40,334 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:14:40,334 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:17:48,892 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:17:48,892 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:17:48,892 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:17:48,897 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:17:48,897 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:17:48,897 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:17:48,900 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:17:48,900 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:17:48,900 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2021-05-15 20:40:33,927 INFO: Started to check the features consistency
+2021-05-15 20:40:33,927 INFO: Started to check the features consistency
+2021-05-15 20:40:33,927 INFO: Started to check the features consistency
+2021-05-15 20:40:33,927 INFO: Started to check the features consistency
+2021-05-15 20:40:33,968 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 20:40:33,968 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 20:40:33,968 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 20:40:33,968 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 20:40:33,970 INFO: Consistency values finished!
+2021-05-15 20:40:33,970 INFO: Consistency values finished!
+2021-05-15 20:40:33,970 INFO: Consistency values finished!
+2021-05-15 20:40:33,970 INFO: Consistency values finished!
+2021-05-15 20:40:33,977 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 20:40:33,977 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 20:40:33,977 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 20:40:33,977 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 20:40:33,980 INFO: Feature Embarked was imputer with "other"
+2021-05-15 20:40:33,980 INFO: Feature Embarked was imputer with "other"
+2021-05-15 20:40:33,980 INFO: Feature Embarked was imputer with "other"
+2021-05-15 20:40:33,980 INFO: Feature Embarked was imputer with "other"
+2021-05-15 20:40:33,982 INFO: None feature were removed because the missing values
+2021-05-15 20:40:33,982 INFO: None feature were removed because the missing values
+2021-05-15 20:40:33,982 INFO: None feature were removed because the missing values
+2021-05-15 20:40:33,982 INFO: None feature were removed because the missing values
+2021-05-15 20:40:33,984 INFO: Handle missing values finished!
+2021-05-15 20:40:33,984 INFO: Handle missing values finished!
+2021-05-15 20:40:33,984 INFO: Handle missing values finished!
+2021-05-15 20:40:33,984 INFO: Handle missing values finished!
+2021-05-15 20:40:33,986 INFO: Detect outliers started
+2021-05-15 20:40:33,986 INFO: Detect outliers started
+2021-05-15 20:40:33,986 INFO: Detect outliers started
+2021-05-15 20:40:33,986 INFO: Detect outliers started
+2021-05-15 20:40:33,989 INFO: Local Outlier Factor method selected
+2021-05-15 20:40:33,989 INFO: Local Outlier Factor method selected
+2021-05-15 20:40:33,989 INFO: Local Outlier Factor method selected
+2021-05-15 20:40:33,989 INFO: Local Outlier Factor method selected
+2021-05-15 20:40:34,016 INFO: Detected 146 outliers
+2021-05-15 20:40:34,016 INFO: Detected 146 outliers
+2021-05-15 20:40:34,016 INFO: Detected 146 outliers
+2021-05-15 20:40:34,016 INFO: Detected 146 outliers
+2021-05-15 20:40:34,018 INFO: Detect outliers finished
+2021-05-15 20:40:34,018 INFO: Detect outliers finished
+2021-05-15 20:40:34,018 INFO: Detect outliers finished
+2021-05-15 20:40:34,018 INFO: Detect outliers finished
+2021-05-15 21:09:18,010 INFO: Started to check the features consistency
+2021-05-15 21:09:18,010 INFO: Started to check the features consistency
+2021-05-15 21:09:18,010 INFO: Started to check the features consistency
+2021-05-15 21:09:18,010 INFO: Started to check the features consistency
+2021-05-15 21:09:18,010 INFO: Started to check the features consistency
+2021-05-15 21:09:18,048 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:09:18,048 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:09:18,048 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:09:18,048 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:09:18,048 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:09:18,050 INFO: Consistency values finished!
+2021-05-15 21:09:18,050 INFO: Consistency values finished!
+2021-05-15 21:09:18,050 INFO: Consistency values finished!
+2021-05-15 21:09:18,050 INFO: Consistency values finished!
+2021-05-15 21:09:18,050 INFO: Consistency values finished!
+2021-05-15 21:09:18,058 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:18,058 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:18,058 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:18,058 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:18,058 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:18,062 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:18,062 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:18,062 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:18,062 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:18,062 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:18,063 INFO: None feature were removed because the missing values
+2021-05-15 21:09:18,063 INFO: None feature were removed because the missing values
+2021-05-15 21:09:18,063 INFO: None feature were removed because the missing values
+2021-05-15 21:09:18,063 INFO: None feature were removed because the missing values
+2021-05-15 21:09:18,063 INFO: None feature were removed because the missing values
+2021-05-15 21:09:18,065 INFO: Handle missing values finished!
+2021-05-15 21:09:18,065 INFO: Handle missing values finished!
+2021-05-15 21:09:18,065 INFO: Handle missing values finished!
+2021-05-15 21:09:18,065 INFO: Handle missing values finished!
+2021-05-15 21:09:18,065 INFO: Handle missing values finished!
+2021-05-15 21:09:18,068 INFO: Detect outliers started
+2021-05-15 21:09:18,068 INFO: Detect outliers started
+2021-05-15 21:09:18,068 INFO: Detect outliers started
+2021-05-15 21:09:18,068 INFO: Detect outliers started
+2021-05-15 21:09:18,068 INFO: Detect outliers started
+2021-05-15 21:09:18,070 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:18,070 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:18,070 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:18,070 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:18,070 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:18,097 INFO: Detected 146 outliers
+2021-05-15 21:09:18,097 INFO: Detected 146 outliers
+2021-05-15 21:09:18,097 INFO: Detected 146 outliers
+2021-05-15 21:09:18,097 INFO: Detected 146 outliers
+2021-05-15 21:09:18,097 INFO: Detected 146 outliers
+2021-05-15 21:09:18,099 INFO: Detect outliers finished
+2021-05-15 21:09:18,099 INFO: Detect outliers finished
+2021-05-15 21:09:18,099 INFO: Detect outliers finished
+2021-05-15 21:09:18,099 INFO: Detect outliers finished
+2021-05-15 21:09:18,099 INFO: Detect outliers finished
+2021-05-15 21:09:22,016 INFO: Started to check the features consistency
+2021-05-15 21:09:22,016 INFO: Started to check the features consistency
+2021-05-15 21:09:22,016 INFO: Started to check the features consistency
+2021-05-15 21:09:22,016 INFO: Started to check the features consistency
+2021-05-15 21:09:22,016 INFO: Started to check the features consistency
+2021-05-15 21:09:22,016 INFO: Started to check the features consistency
+2021-05-15 21:09:22,029 INFO: Features: [] were removed because its distribution
+2021-05-15 21:09:22,029 INFO: Features: [] were removed because its distribution
+2021-05-15 21:09:22,029 INFO: Features: [] were removed because its distribution
+2021-05-15 21:09:22,029 INFO: Features: [] were removed because its distribution
+2021-05-15 21:09:22,029 INFO: Features: [] were removed because its distribution
+2021-05-15 21:09:22,029 INFO: Features: [] were removed because its distribution
+2021-05-15 21:09:22,031 INFO: Consistency values finished!
+2021-05-15 21:09:22,031 INFO: Consistency values finished!
+2021-05-15 21:09:22,031 INFO: Consistency values finished!
+2021-05-15 21:09:22,031 INFO: Consistency values finished!
+2021-05-15 21:09:22,031 INFO: Consistency values finished!
+2021-05-15 21:09:22,031 INFO: Consistency values finished!
+2021-05-15 21:09:22,036 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:22,036 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:22,036 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:22,036 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:22,036 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:22,036 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:22,038 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:22,038 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:22,038 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:22,038 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:22,038 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:22,038 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:22,041 INFO: None feature were removed because the missing values
+2021-05-15 21:09:22,041 INFO: None feature were removed because the missing values
+2021-05-15 21:09:22,041 INFO: None feature were removed because the missing values
+2021-05-15 21:09:22,041 INFO: None feature were removed because the missing values
+2021-05-15 21:09:22,041 INFO: None feature were removed because the missing values
+2021-05-15 21:09:22,041 INFO: None feature were removed because the missing values
+2021-05-15 21:09:22,043 INFO: Handle missing values finished!
+2021-05-15 21:09:22,043 INFO: Handle missing values finished!
+2021-05-15 21:09:22,043 INFO: Handle missing values finished!
+2021-05-15 21:09:22,043 INFO: Handle missing values finished!
+2021-05-15 21:09:22,043 INFO: Handle missing values finished!
+2021-05-15 21:09:22,043 INFO: Handle missing values finished!
+2021-05-15 21:09:22,046 INFO: Detect outliers started
+2021-05-15 21:09:22,046 INFO: Detect outliers started
+2021-05-15 21:09:22,046 INFO: Detect outliers started
+2021-05-15 21:09:22,046 INFO: Detect outliers started
+2021-05-15 21:09:22,046 INFO: Detect outliers started
+2021-05-15 21:09:22,046 INFO: Detect outliers started
+2021-05-15 21:09:22,048 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:22,048 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:22,048 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:22,048 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:22,048 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:22,048 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:22,071 INFO: Detected 146 outliers
+2021-05-15 21:09:22,071 INFO: Detected 146 outliers
+2021-05-15 21:09:22,071 INFO: Detected 146 outliers
+2021-05-15 21:09:22,071 INFO: Detected 146 outliers
+2021-05-15 21:09:22,071 INFO: Detected 146 outliers
+2021-05-15 21:09:22,071 INFO: Detected 146 outliers
+2021-05-15 21:09:22,074 INFO: Detect outliers finished
+2021-05-15 21:09:22,074 INFO: Detect outliers finished
+2021-05-15 21:09:22,074 INFO: Detect outliers finished
+2021-05-15 21:09:22,074 INFO: Detect outliers finished
+2021-05-15 21:09:22,074 INFO: Detect outliers finished
+2021-05-15 21:09:22,074 INFO: Detect outliers finished
+2021-05-15 21:09:26,119 INFO: Started to check the features consistency
+2021-05-15 21:09:26,119 INFO: Started to check the features consistency
+2021-05-15 21:09:26,119 INFO: Started to check the features consistency
+2021-05-15 21:09:26,119 INFO: Started to check the features consistency
+2021-05-15 21:09:26,119 INFO: Started to check the features consistency
+2021-05-15 21:09:26,119 INFO: Started to check the features consistency
+2021-05-15 21:09:26,119 INFO: Started to check the features consistency
+2021-05-15 21:09:26,167 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:09:26,167 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:09:26,167 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:09:26,167 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:09:26,167 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:09:26,167 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:09:26,167 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:09:26,169 INFO: Consistency values finished!
+2021-05-15 21:09:26,169 INFO: Consistency values finished!
+2021-05-15 21:09:26,169 INFO: Consistency values finished!
+2021-05-15 21:09:26,169 INFO: Consistency values finished!
+2021-05-15 21:09:26,169 INFO: Consistency values finished!
+2021-05-15 21:09:26,169 INFO: Consistency values finished!
+2021-05-15 21:09:26,169 INFO: Consistency values finished!
+2021-05-15 21:09:26,177 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:26,177 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:26,177 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:26,177 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:26,177 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:26,177 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:26,177 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:09:26,181 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:26,181 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:26,181 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:26,181 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:26,181 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:26,181 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:26,181 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:09:26,182 INFO: None feature were removed because the missing values
+2021-05-15 21:09:26,182 INFO: None feature were removed because the missing values
+2021-05-15 21:09:26,182 INFO: None feature were removed because the missing values
+2021-05-15 21:09:26,182 INFO: None feature were removed because the missing values
+2021-05-15 21:09:26,182 INFO: None feature were removed because the missing values
+2021-05-15 21:09:26,182 INFO: None feature were removed because the missing values
+2021-05-15 21:09:26,182 INFO: None feature were removed because the missing values
+2021-05-15 21:09:26,185 INFO: Handle missing values finished!
+2021-05-15 21:09:26,185 INFO: Handle missing values finished!
+2021-05-15 21:09:26,185 INFO: Handle missing values finished!
+2021-05-15 21:09:26,185 INFO: Handle missing values finished!
+2021-05-15 21:09:26,185 INFO: Handle missing values finished!
+2021-05-15 21:09:26,185 INFO: Handle missing values finished!
+2021-05-15 21:09:26,185 INFO: Handle missing values finished!
+2021-05-15 21:09:26,187 INFO: Detect outliers started
+2021-05-15 21:09:26,187 INFO: Detect outliers started
+2021-05-15 21:09:26,187 INFO: Detect outliers started
+2021-05-15 21:09:26,187 INFO: Detect outliers started
+2021-05-15 21:09:26,187 INFO: Detect outliers started
+2021-05-15 21:09:26,187 INFO: Detect outliers started
+2021-05-15 21:09:26,187 INFO: Detect outliers started
+2021-05-15 21:09:26,190 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:26,190 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:26,190 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:26,190 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:26,190 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:26,190 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:26,190 INFO: Local Outlier Factor method selected
+2021-05-15 21:09:26,220 INFO: Detected 146 outliers
+2021-05-15 21:09:26,220 INFO: Detected 146 outliers
+2021-05-15 21:09:26,220 INFO: Detected 146 outliers
+2021-05-15 21:09:26,220 INFO: Detected 146 outliers
+2021-05-15 21:09:26,220 INFO: Detected 146 outliers
+2021-05-15 21:09:26,220 INFO: Detected 146 outliers
+2021-05-15 21:09:26,220 INFO: Detected 146 outliers
+2021-05-15 21:09:26,223 INFO: Detect outliers finished
+2021-05-15 21:09:26,223 INFO: Detect outliers finished
+2021-05-15 21:09:26,223 INFO: Detect outliers finished
+2021-05-15 21:09:26,223 INFO: Detect outliers finished
+2021-05-15 21:09:26,223 INFO: Detect outliers finished
+2021-05-15 21:09:26,223 INFO: Detect outliers finished
+2021-05-15 21:09:26,223 INFO: Detect outliers finished
+2021-05-15 21:32:53,894 INFO: Started to check the features consistency
+2021-05-15 21:32:53,894 INFO: Started to check the features consistency
+2021-05-15 21:32:53,894 INFO: Started to check the features consistency
+2021-05-15 21:32:53,894 INFO: Started to check the features consistency
+2021-05-15 21:32:53,894 INFO: Started to check the features consistency
+2021-05-15 21:32:53,894 INFO: Started to check the features consistency
+2021-05-15 21:32:53,894 INFO: Started to check the features consistency
+2021-05-15 21:32:53,894 INFO: Started to check the features consistency
+2021-05-15 21:32:53,907 INFO: Features: [] were removed because its distribution
+2021-05-15 21:32:53,907 INFO: Features: [] were removed because its distribution
+2021-05-15 21:32:53,907 INFO: Features: [] were removed because its distribution
+2021-05-15 21:32:53,907 INFO: Features: [] were removed because its distribution
+2021-05-15 21:32:53,907 INFO: Features: [] were removed because its distribution
+2021-05-15 21:32:53,907 INFO: Features: [] were removed because its distribution
+2021-05-15 21:32:53,907 INFO: Features: [] were removed because its distribution
+2021-05-15 21:32:53,907 INFO: Features: [] were removed because its distribution
+2021-05-15 21:32:53,908 INFO: Consistency values finished!
+2021-05-15 21:32:53,908 INFO: Consistency values finished!
+2021-05-15 21:32:53,908 INFO: Consistency values finished!
+2021-05-15 21:32:53,908 INFO: Consistency values finished!
+2021-05-15 21:32:53,908 INFO: Consistency values finished!
+2021-05-15 21:32:53,908 INFO: Consistency values finished!
+2021-05-15 21:32:53,908 INFO: Consistency values finished!
+2021-05-15 21:32:53,908 INFO: Consistency values finished!
+2021-05-15 21:32:53,912 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:32:53,912 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:32:53,912 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:32:53,912 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:32:53,912 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:32:53,912 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:32:53,912 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:32:53,912 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:32:53,914 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:32:53,914 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:32:53,914 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:32:53,914 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:32:53,914 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:32:53,914 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:32:53,914 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:32:53,914 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:32:53,916 INFO: None feature were removed because the missing values
+2021-05-15 21:32:53,916 INFO: None feature were removed because the missing values
+2021-05-15 21:32:53,916 INFO: None feature were removed because the missing values
+2021-05-15 21:32:53,916 INFO: None feature were removed because the missing values
+2021-05-15 21:32:53,916 INFO: None feature were removed because the missing values
+2021-05-15 21:32:53,916 INFO: None feature were removed because the missing values
+2021-05-15 21:32:53,916 INFO: None feature were removed because the missing values
+2021-05-15 21:32:53,916 INFO: None feature were removed because the missing values
+2021-05-15 21:32:53,917 INFO: Handle missing values finished!
+2021-05-15 21:32:53,917 INFO: Handle missing values finished!
+2021-05-15 21:32:53,917 INFO: Handle missing values finished!
+2021-05-15 21:32:53,917 INFO: Handle missing values finished!
+2021-05-15 21:32:53,917 INFO: Handle missing values finished!
+2021-05-15 21:32:53,917 INFO: Handle missing values finished!
+2021-05-15 21:32:53,917 INFO: Handle missing values finished!
+2021-05-15 21:32:53,917 INFO: Handle missing values finished!
+2021-05-15 21:32:53,919 INFO: Detect outliers started
+2021-05-15 21:32:53,919 INFO: Detect outliers started
+2021-05-15 21:32:53,919 INFO: Detect outliers started
+2021-05-15 21:32:53,919 INFO: Detect outliers started
+2021-05-15 21:32:53,919 INFO: Detect outliers started
+2021-05-15 21:32:53,919 INFO: Detect outliers started
+2021-05-15 21:32:53,919 INFO: Detect outliers started
+2021-05-15 21:32:53,919 INFO: Detect outliers started
+2021-05-15 21:32:53,920 INFO: Local Outlier Factor method selected
+2021-05-15 21:32:53,920 INFO: Local Outlier Factor method selected
+2021-05-15 21:32:53,920 INFO: Local Outlier Factor method selected
+2021-05-15 21:32:53,920 INFO: Local Outlier Factor method selected
+2021-05-15 21:32:53,920 INFO: Local Outlier Factor method selected
+2021-05-15 21:32:53,920 INFO: Local Outlier Factor method selected
+2021-05-15 21:32:53,920 INFO: Local Outlier Factor method selected
+2021-05-15 21:32:53,920 INFO: Local Outlier Factor method selected
+2021-05-15 21:32:53,940 INFO: Detected 146 outliers
+2021-05-15 21:32:53,940 INFO: Detected 146 outliers
+2021-05-15 21:32:53,940 INFO: Detected 146 outliers
+2021-05-15 21:32:53,940 INFO: Detected 146 outliers
+2021-05-15 21:32:53,940 INFO: Detected 146 outliers
+2021-05-15 21:32:53,940 INFO: Detected 146 outliers
+2021-05-15 21:32:53,940 INFO: Detected 146 outliers
+2021-05-15 21:32:53,940 INFO: Detected 146 outliers
+2021-05-15 21:32:53,942 INFO: Detect outliers finished
+2021-05-15 21:32:53,942 INFO: Detect outliers finished
+2021-05-15 21:32:53,942 INFO: Detect outliers finished
+2021-05-15 21:32:53,942 INFO: Detect outliers finished
+2021-05-15 21:32:53,942 INFO: Detect outliers finished
+2021-05-15 21:32:53,942 INFO: Detect outliers finished
+2021-05-15 21:32:53,942 INFO: Detect outliers finished
+2021-05-15 21:32:53,942 INFO: Detect outliers finished
+2021-05-15 21:33:09,319 INFO: Started to check the features consistency
+2021-05-15 21:33:09,319 INFO: Started to check the features consistency
+2021-05-15 21:33:09,319 INFO: Started to check the features consistency
+2021-05-15 21:33:09,319 INFO: Started to check the features consistency
+2021-05-15 21:33:09,319 INFO: Started to check the features consistency
+2021-05-15 21:33:09,319 INFO: Started to check the features consistency
+2021-05-15 21:33:09,319 INFO: Started to check the features consistency
+2021-05-15 21:33:09,319 INFO: Started to check the features consistency
+2021-05-15 21:33:09,319 INFO: Started to check the features consistency
+2021-05-15 21:33:09,347 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:33:09,347 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:33:09,347 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:33:09,347 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:33:09,347 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:33:09,347 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:33:09,347 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:33:09,347 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:33:09,347 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:33:09,349 INFO: Consistency values finished!
+2021-05-15 21:33:09,349 INFO: Consistency values finished!
+2021-05-15 21:33:09,349 INFO: Consistency values finished!
+2021-05-15 21:33:09,349 INFO: Consistency values finished!
+2021-05-15 21:33:09,349 INFO: Consistency values finished!
+2021-05-15 21:33:09,349 INFO: Consistency values finished!
+2021-05-15 21:33:09,349 INFO: Consistency values finished!
+2021-05-15 21:33:09,349 INFO: Consistency values finished!
+2021-05-15 21:33:09,349 INFO: Consistency values finished!
+2021-05-15 21:33:09,354 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:33:09,354 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:33:09,354 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:33:09,354 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:33:09,354 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:33:09,354 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:33:09,354 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:33:09,354 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:33:09,354 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:33:09,357 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:33:09,357 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:33:09,357 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:33:09,357 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:33:09,357 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:33:09,357 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:33:09,357 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:33:09,357 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:33:09,357 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:33:09,358 INFO: None feature were removed because the missing values
+2021-05-15 21:33:09,358 INFO: None feature were removed because the missing values
+2021-05-15 21:33:09,358 INFO: None feature were removed because the missing values
+2021-05-15 21:33:09,358 INFO: None feature were removed because the missing values
+2021-05-15 21:33:09,358 INFO: None feature were removed because the missing values
+2021-05-15 21:33:09,358 INFO: None feature were removed because the missing values
+2021-05-15 21:33:09,358 INFO: None feature were removed because the missing values
+2021-05-15 21:33:09,358 INFO: None feature were removed because the missing values
+2021-05-15 21:33:09,358 INFO: None feature were removed because the missing values
+2021-05-15 21:33:09,360 INFO: Handle missing values finished!
+2021-05-15 21:33:09,360 INFO: Handle missing values finished!
+2021-05-15 21:33:09,360 INFO: Handle missing values finished!
+2021-05-15 21:33:09,360 INFO: Handle missing values finished!
+2021-05-15 21:33:09,360 INFO: Handle missing values finished!
+2021-05-15 21:33:09,360 INFO: Handle missing values finished!
+2021-05-15 21:33:09,360 INFO: Handle missing values finished!
+2021-05-15 21:33:09,360 INFO: Handle missing values finished!
+2021-05-15 21:33:09,360 INFO: Handle missing values finished!
+2021-05-15 21:33:09,362 INFO: Detect outliers started
+2021-05-15 21:33:09,362 INFO: Detect outliers started
+2021-05-15 21:33:09,362 INFO: Detect outliers started
+2021-05-15 21:33:09,362 INFO: Detect outliers started
+2021-05-15 21:33:09,362 INFO: Detect outliers started
+2021-05-15 21:33:09,362 INFO: Detect outliers started
+2021-05-15 21:33:09,362 INFO: Detect outliers started
+2021-05-15 21:33:09,362 INFO: Detect outliers started
+2021-05-15 21:33:09,362 INFO: Detect outliers started
+2021-05-15 21:33:09,363 INFO: Local Outlier Factor method selected
+2021-05-15 21:33:09,363 INFO: Local Outlier Factor method selected
+2021-05-15 21:33:09,363 INFO: Local Outlier Factor method selected
+2021-05-15 21:33:09,363 INFO: Local Outlier Factor method selected
+2021-05-15 21:33:09,363 INFO: Local Outlier Factor method selected
+2021-05-15 21:33:09,363 INFO: Local Outlier Factor method selected
+2021-05-15 21:33:09,363 INFO: Local Outlier Factor method selected
+2021-05-15 21:33:09,363 INFO: Local Outlier Factor method selected
+2021-05-15 21:33:09,363 INFO: Local Outlier Factor method selected
+2021-05-15 21:33:09,390 INFO: Detected 146 outliers
+2021-05-15 21:33:09,390 INFO: Detected 146 outliers
+2021-05-15 21:33:09,390 INFO: Detected 146 outliers
+2021-05-15 21:33:09,390 INFO: Detected 146 outliers
+2021-05-15 21:33:09,390 INFO: Detected 146 outliers
+2021-05-15 21:33:09,390 INFO: Detected 146 outliers
+2021-05-15 21:33:09,390 INFO: Detected 146 outliers
+2021-05-15 21:33:09,390 INFO: Detected 146 outliers
+2021-05-15 21:33:09,390 INFO: Detected 146 outliers
+2021-05-15 21:33:09,392 INFO: Detect outliers finished
+2021-05-15 21:33:09,392 INFO: Detect outliers finished
+2021-05-15 21:33:09,392 INFO: Detect outliers finished
+2021-05-15 21:33:09,392 INFO: Detect outliers finished
+2021-05-15 21:33:09,392 INFO: Detect outliers finished
+2021-05-15 21:33:09,392 INFO: Detect outliers finished
+2021-05-15 21:33:09,392 INFO: Detect outliers finished
+2021-05-15 21:33:09,392 INFO: Detect outliers finished
+2021-05-15 21:33:09,392 INFO: Detect outliers finished
+2021-05-15 21:34:03,924 INFO: Started to check the features consistency
+2021-05-15 21:34:03,924 INFO: Started to check the features consistency
+2021-05-15 21:34:03,924 INFO: Started to check the features consistency
+2021-05-15 21:34:03,924 INFO: Started to check the features consistency
+2021-05-15 21:34:03,924 INFO: Started to check the features consistency
+2021-05-15 21:34:03,924 INFO: Started to check the features consistency
+2021-05-15 21:34:03,924 INFO: Started to check the features consistency
+2021-05-15 21:34:03,924 INFO: Started to check the features consistency
+2021-05-15 21:34:03,924 INFO: Started to check the features consistency
+2021-05-15 21:34:03,924 INFO: Started to check the features consistency
+2021-05-15 21:34:03,951 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:34:03,951 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:34:03,951 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:34:03,951 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:34:03,951 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:34:03,951 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:34:03,951 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:34:03,951 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:34:03,951 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:34:03,951 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:34:03,953 INFO: Consistency values finished!
+2021-05-15 21:34:03,953 INFO: Consistency values finished!
+2021-05-15 21:34:03,953 INFO: Consistency values finished!
+2021-05-15 21:34:03,953 INFO: Consistency values finished!
+2021-05-15 21:34:03,953 INFO: Consistency values finished!
+2021-05-15 21:34:03,953 INFO: Consistency values finished!
+2021-05-15 21:34:03,953 INFO: Consistency values finished!
+2021-05-15 21:34:03,953 INFO: Consistency values finished!
+2021-05-15 21:34:03,953 INFO: Consistency values finished!
+2021-05-15 21:34:03,953 INFO: Consistency values finished!
+2021-05-15 21:34:03,959 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:34:03,959 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:34:03,959 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:34:03,959 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:34:03,959 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:34:03,959 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:34:03,959 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:34:03,959 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:34:03,959 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:34:03,959 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:34:03,961 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:34:03,961 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:34:03,961 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:34:03,961 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:34:03,961 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:34:03,961 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:34:03,961 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:34:03,961 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:34:03,961 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:34:03,961 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:34:03,963 INFO: None feature were removed because the missing values
+2021-05-15 21:34:03,963 INFO: None feature were removed because the missing values
+2021-05-15 21:34:03,963 INFO: None feature were removed because the missing values
+2021-05-15 21:34:03,963 INFO: None feature were removed because the missing values
+2021-05-15 21:34:03,963 INFO: None feature were removed because the missing values
+2021-05-15 21:34:03,963 INFO: None feature were removed because the missing values
+2021-05-15 21:34:03,963 INFO: None feature were removed because the missing values
+2021-05-15 21:34:03,963 INFO: None feature were removed because the missing values
+2021-05-15 21:34:03,963 INFO: None feature were removed because the missing values
+2021-05-15 21:34:03,963 INFO: None feature were removed because the missing values
+2021-05-15 21:34:03,964 INFO: Handle missing values finished!
+2021-05-15 21:34:03,964 INFO: Handle missing values finished!
+2021-05-15 21:34:03,964 INFO: Handle missing values finished!
+2021-05-15 21:34:03,964 INFO: Handle missing values finished!
+2021-05-15 21:34:03,964 INFO: Handle missing values finished!
+2021-05-15 21:34:03,964 INFO: Handle missing values finished!
+2021-05-15 21:34:03,964 INFO: Handle missing values finished!
+2021-05-15 21:34:03,964 INFO: Handle missing values finished!
+2021-05-15 21:34:03,964 INFO: Handle missing values finished!
+2021-05-15 21:34:03,964 INFO: Handle missing values finished!
+2021-05-15 21:34:03,965 INFO: Detect outliers started
+2021-05-15 21:34:03,965 INFO: Detect outliers started
+2021-05-15 21:34:03,965 INFO: Detect outliers started
+2021-05-15 21:34:03,965 INFO: Detect outliers started
+2021-05-15 21:34:03,965 INFO: Detect outliers started
+2021-05-15 21:34:03,965 INFO: Detect outliers started
+2021-05-15 21:34:03,965 INFO: Detect outliers started
+2021-05-15 21:34:03,965 INFO: Detect outliers started
+2021-05-15 21:34:03,965 INFO: Detect outliers started
+2021-05-15 21:34:03,965 INFO: Detect outliers started
+2021-05-15 21:34:03,966 INFO: Local Outlier Factor method selected
+2021-05-15 21:34:03,966 INFO: Local Outlier Factor method selected
+2021-05-15 21:34:03,966 INFO: Local Outlier Factor method selected
+2021-05-15 21:34:03,966 INFO: Local Outlier Factor method selected
+2021-05-15 21:34:03,966 INFO: Local Outlier Factor method selected
+2021-05-15 21:34:03,966 INFO: Local Outlier Factor method selected
+2021-05-15 21:34:03,966 INFO: Local Outlier Factor method selected
+2021-05-15 21:34:03,966 INFO: Local Outlier Factor method selected
+2021-05-15 21:34:03,966 INFO: Local Outlier Factor method selected
+2021-05-15 21:34:03,966 INFO: Local Outlier Factor method selected
+2021-05-15 21:34:03,998 INFO: Detected 146 outliers
+2021-05-15 21:34:03,998 INFO: Detected 146 outliers
+2021-05-15 21:34:03,998 INFO: Detected 146 outliers
+2021-05-15 21:34:03,998 INFO: Detected 146 outliers
+2021-05-15 21:34:03,998 INFO: Detected 146 outliers
+2021-05-15 21:34:03,998 INFO: Detected 146 outliers
+2021-05-15 21:34:03,998 INFO: Detected 146 outliers
+2021-05-15 21:34:03,998 INFO: Detected 146 outliers
+2021-05-15 21:34:03,998 INFO: Detected 146 outliers
+2021-05-15 21:34:03,998 INFO: Detected 146 outliers
+2021-05-15 21:34:04,000 INFO: Detect outliers finished
+2021-05-15 21:34:04,000 INFO: Detect outliers finished
+2021-05-15 21:34:04,000 INFO: Detect outliers finished
+2021-05-15 21:34:04,000 INFO: Detect outliers finished
+2021-05-15 21:34:04,000 INFO: Detect outliers finished
+2021-05-15 21:34:04,000 INFO: Detect outliers finished
+2021-05-15 21:34:04,000 INFO: Detect outliers finished
+2021-05-15 21:34:04,000 INFO: Detect outliers finished
+2021-05-15 21:34:04,000 INFO: Detect outliers finished
+2021-05-15 21:34:04,000 INFO: Detect outliers finished
+2021-05-15 21:35:58,508 INFO: Started to check the features consistency
+2021-05-15 21:35:58,508 INFO: Started to check the features consistency
+2021-05-15 21:35:58,508 INFO: Started to check the features consistency
+2021-05-15 21:35:58,508 INFO: Started to check the features consistency
+2021-05-15 21:35:58,508 INFO: Started to check the features consistency
+2021-05-15 21:35:58,508 INFO: Started to check the features consistency
+2021-05-15 21:35:58,508 INFO: Started to check the features consistency
+2021-05-15 21:35:58,508 INFO: Started to check the features consistency
+2021-05-15 21:35:58,508 INFO: Started to check the features consistency
+2021-05-15 21:35:58,508 INFO: Started to check the features consistency
+2021-05-15 21:35:58,508 INFO: Started to check the features consistency
+2021-05-15 21:35:58,542 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:35:58,542 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:35:58,542 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:35:58,542 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:35:58,542 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:35:58,542 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:35:58,542 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:35:58,542 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:35:58,542 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:35:58,542 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:35:58,542 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:35:58,543 INFO: Consistency values finished!
+2021-05-15 21:35:58,543 INFO: Consistency values finished!
+2021-05-15 21:35:58,543 INFO: Consistency values finished!
+2021-05-15 21:35:58,543 INFO: Consistency values finished!
+2021-05-15 21:35:58,543 INFO: Consistency values finished!
+2021-05-15 21:35:58,543 INFO: Consistency values finished!
+2021-05-15 21:35:58,543 INFO: Consistency values finished!
+2021-05-15 21:35:58,543 INFO: Consistency values finished!
+2021-05-15 21:35:58,543 INFO: Consistency values finished!
+2021-05-15 21:35:58,543 INFO: Consistency values finished!
+2021-05-15 21:35:58,543 INFO: Consistency values finished!
+2021-05-15 21:35:58,548 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:35:58,548 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:35:58,548 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:35:58,548 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:35:58,548 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:35:58,548 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:35:58,548 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:35:58,548 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:35:58,548 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:35:58,548 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:35:58,548 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:35:58,550 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:35:58,550 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:35:58,550 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:35:58,550 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:35:58,550 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:35:58,550 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:35:58,550 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:35:58,550 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:35:58,550 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:35:58,550 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:35:58,550 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:35:58,552 INFO: None feature were removed because the missing values
+2021-05-15 21:35:58,552 INFO: None feature were removed because the missing values
+2021-05-15 21:35:58,552 INFO: None feature were removed because the missing values
+2021-05-15 21:35:58,552 INFO: None feature were removed because the missing values
+2021-05-15 21:35:58,552 INFO: None feature were removed because the missing values
+2021-05-15 21:35:58,552 INFO: None feature were removed because the missing values
+2021-05-15 21:35:58,552 INFO: None feature were removed because the missing values
+2021-05-15 21:35:58,552 INFO: None feature were removed because the missing values
+2021-05-15 21:35:58,552 INFO: None feature were removed because the missing values
+2021-05-15 21:35:58,552 INFO: None feature were removed because the missing values
+2021-05-15 21:35:58,552 INFO: None feature were removed because the missing values
+2021-05-15 21:35:58,553 INFO: Handle missing values finished!
+2021-05-15 21:35:58,553 INFO: Handle missing values finished!
+2021-05-15 21:35:58,553 INFO: Handle missing values finished!
+2021-05-15 21:35:58,553 INFO: Handle missing values finished!
+2021-05-15 21:35:58,553 INFO: Handle missing values finished!
+2021-05-15 21:35:58,553 INFO: Handle missing values finished!
+2021-05-15 21:35:58,553 INFO: Handle missing values finished!
+2021-05-15 21:35:58,553 INFO: Handle missing values finished!
+2021-05-15 21:35:58,553 INFO: Handle missing values finished!
+2021-05-15 21:35:58,553 INFO: Handle missing values finished!
+2021-05-15 21:35:58,553 INFO: Handle missing values finished!
+2021-05-15 21:35:58,554 INFO: Detect outliers started
+2021-05-15 21:35:58,554 INFO: Detect outliers started
+2021-05-15 21:35:58,554 INFO: Detect outliers started
+2021-05-15 21:35:58,554 INFO: Detect outliers started
+2021-05-15 21:35:58,554 INFO: Detect outliers started
+2021-05-15 21:35:58,554 INFO: Detect outliers started
+2021-05-15 21:35:58,554 INFO: Detect outliers started
+2021-05-15 21:35:58,554 INFO: Detect outliers started
+2021-05-15 21:35:58,554 INFO: Detect outliers started
+2021-05-15 21:35:58,554 INFO: Detect outliers started
+2021-05-15 21:35:58,554 INFO: Detect outliers started
+2021-05-15 21:35:58,555 INFO: Local Outlier Factor method selected
+2021-05-15 21:35:58,555 INFO: Local Outlier Factor method selected
+2021-05-15 21:35:58,555 INFO: Local Outlier Factor method selected
+2021-05-15 21:35:58,555 INFO: Local Outlier Factor method selected
+2021-05-15 21:35:58,555 INFO: Local Outlier Factor method selected
+2021-05-15 21:35:58,555 INFO: Local Outlier Factor method selected
+2021-05-15 21:35:58,555 INFO: Local Outlier Factor method selected
+2021-05-15 21:35:58,555 INFO: Local Outlier Factor method selected
+2021-05-15 21:35:58,555 INFO: Local Outlier Factor method selected
+2021-05-15 21:35:58,555 INFO: Local Outlier Factor method selected
+2021-05-15 21:35:58,555 INFO: Local Outlier Factor method selected
+2021-05-15 21:35:58,581 INFO: Detected 146 outliers
+2021-05-15 21:35:58,581 INFO: Detected 146 outliers
+2021-05-15 21:35:58,581 INFO: Detected 146 outliers
+2021-05-15 21:35:58,581 INFO: Detected 146 outliers
+2021-05-15 21:35:58,581 INFO: Detected 146 outliers
+2021-05-15 21:35:58,581 INFO: Detected 146 outliers
+2021-05-15 21:35:58,581 INFO: Detected 146 outliers
+2021-05-15 21:35:58,581 INFO: Detected 146 outliers
+2021-05-15 21:35:58,581 INFO: Detected 146 outliers
+2021-05-15 21:35:58,581 INFO: Detected 146 outliers
+2021-05-15 21:35:58,581 INFO: Detected 146 outliers
+2021-05-15 21:35:58,584 INFO: Detect outliers finished
+2021-05-15 21:35:58,584 INFO: Detect outliers finished
+2021-05-15 21:35:58,584 INFO: Detect outliers finished
+2021-05-15 21:35:58,584 INFO: Detect outliers finished
+2021-05-15 21:35:58,584 INFO: Detect outliers finished
+2021-05-15 21:35:58,584 INFO: Detect outliers finished
+2021-05-15 21:35:58,584 INFO: Detect outliers finished
+2021-05-15 21:35:58,584 INFO: Detect outliers finished
+2021-05-15 21:35:58,584 INFO: Detect outliers finished
+2021-05-15 21:35:58,584 INFO: Detect outliers finished
+2021-05-15 21:35:58,584 INFO: Detect outliers finished
+2021-05-15 21:36:51,136 INFO: Started to check the features consistency
+2021-05-15 21:36:51,164 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:36:51,165 INFO: Consistency values finished!
+2021-05-15 21:36:51,175 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:36:51,178 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:36:51,179 INFO: None feature were removed because the missing values
+2021-05-15 21:36:51,180 INFO: Handle missing values finished!
+2021-05-15 21:36:51,181 INFO: Detect outliers started
+2021-05-15 21:36:51,182 INFO: Local Outlier Factor method selected
+2021-05-15 21:36:51,203 INFO: Detected 146 outliers
+2021-05-15 21:36:51,204 INFO: Detect outliers finished
+2021-05-15 21:38:07,920 INFO: Started to check the features consistency
+2021-05-15 21:38:07,920 INFO: Started to check the features consistency
+2021-05-15 21:38:07,948 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:38:07,948 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:38:07,949 INFO: Consistency values finished!
+2021-05-15 21:38:07,949 INFO: Consistency values finished!
+2021-05-15 21:38:07,954 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:38:07,954 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:38:07,956 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:38:07,956 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:38:07,958 INFO: None feature were removed because the missing values
+2021-05-15 21:38:07,958 INFO: None feature were removed because the missing values
+2021-05-15 21:38:07,959 INFO: Handle missing values finished!
+2021-05-15 21:38:07,959 INFO: Handle missing values finished!
+2021-05-15 21:38:07,960 INFO: Detect outliers started
+2021-05-15 21:38:07,960 INFO: Detect outliers started
+2021-05-15 21:38:07,961 INFO: Local Outlier Factor method selected
+2021-05-15 21:38:07,961 INFO: Local Outlier Factor method selected
+2021-05-15 21:38:07,983 INFO: Detected 146 outliers
+2021-05-15 21:38:07,983 INFO: Detected 146 outliers
+2021-05-15 21:38:07,984 INFO: Detect outliers finished
+2021-05-15 21:38:07,984 INFO: Detect outliers finished
+2021-05-15 21:40:40,748 INFO: Started to check the features consistency
+2021-05-15 21:40:40,748 INFO: Started to check the features consistency
+2021-05-15 21:40:40,748 INFO: Started to check the features consistency
+2021-05-15 21:40:40,775 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:40:40,775 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:40:40,775 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:40:40,776 INFO: Consistency values finished!
+2021-05-15 21:40:40,776 INFO: Consistency values finished!
+2021-05-15 21:40:40,776 INFO: Consistency values finished!
+2021-05-15 21:40:40,780 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:40:40,780 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:40:40,780 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:40:40,785 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:40:40,785 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:40:40,785 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:40:40,787 INFO: None feature were removed because the missing values
+2021-05-15 21:40:40,787 INFO: None feature were removed because the missing values
+2021-05-15 21:40:40,787 INFO: None feature were removed because the missing values
+2021-05-15 21:40:40,788 INFO: Handle missing values finished!
+2021-05-15 21:40:40,788 INFO: Handle missing values finished!
+2021-05-15 21:40:40,788 INFO: Handle missing values finished!
+2021-05-15 21:40:40,789 INFO: Detect outliers started
+2021-05-15 21:40:40,789 INFO: Detect outliers started
+2021-05-15 21:40:40,789 INFO: Detect outliers started
+2021-05-15 21:40:40,789 INFO: Local Outlier Factor method selected
+2021-05-15 21:40:40,789 INFO: Local Outlier Factor method selected
+2021-05-15 21:40:40,789 INFO: Local Outlier Factor method selected
+2021-05-15 21:40:40,814 INFO: Detected 146 outliers
+2021-05-15 21:40:40,814 INFO: Detected 146 outliers
+2021-05-15 21:40:40,814 INFO: Detected 146 outliers
+2021-05-15 21:40:40,816 INFO: Detect outliers finished
+2021-05-15 21:40:40,816 INFO: Detect outliers finished
+2021-05-15 21:40:40,816 INFO: Detect outliers finished
+2021-05-15 21:42:00,259 INFO: Started to check the features consistency
+2021-05-15 21:42:00,259 INFO: Started to check the features consistency
+2021-05-15 21:42:00,259 INFO: Started to check the features consistency
+2021-05-15 21:42:00,259 INFO: Started to check the features consistency
+2021-05-15 21:42:00,287 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:42:00,287 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:42:00,287 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:42:00,287 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:42:00,288 INFO: Consistency values finished!
+2021-05-15 21:42:00,288 INFO: Consistency values finished!
+2021-05-15 21:42:00,288 INFO: Consistency values finished!
+2021-05-15 21:42:00,288 INFO: Consistency values finished!
+2021-05-15 21:42:00,294 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:42:00,294 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:42:00,294 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:42:00,294 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:42:00,298 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:42:00,298 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:42:00,298 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:42:00,298 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:42:00,299 INFO: None feature were removed because the missing values
+2021-05-15 21:42:00,299 INFO: None feature were removed because the missing values
+2021-05-15 21:42:00,299 INFO: None feature were removed because the missing values
+2021-05-15 21:42:00,299 INFO: None feature were removed because the missing values
+2021-05-15 21:42:00,300 INFO: Handle missing values finished!
+2021-05-15 21:42:00,300 INFO: Handle missing values finished!
+2021-05-15 21:42:00,300 INFO: Handle missing values finished!
+2021-05-15 21:42:00,300 INFO: Handle missing values finished!
+2021-05-15 21:42:00,302 INFO: Detect outliers started
+2021-05-15 21:42:00,302 INFO: Detect outliers started
+2021-05-15 21:42:00,302 INFO: Detect outliers started
+2021-05-15 21:42:00,302 INFO: Detect outliers started
+2021-05-15 21:42:00,303 INFO: Local Outlier Factor method selected
+2021-05-15 21:42:00,303 INFO: Local Outlier Factor method selected
+2021-05-15 21:42:00,303 INFO: Local Outlier Factor method selected
+2021-05-15 21:42:00,303 INFO: Local Outlier Factor method selected
+2021-05-15 21:42:00,325 INFO: Detected 146 outliers
+2021-05-15 21:42:00,325 INFO: Detected 146 outliers
+2021-05-15 21:42:00,325 INFO: Detected 146 outliers
+2021-05-15 21:42:00,325 INFO: Detected 146 outliers
+2021-05-15 21:42:00,326 INFO: Detect outliers finished
+2021-05-15 21:42:00,326 INFO: Detect outliers finished
+2021-05-15 21:42:00,326 INFO: Detect outliers finished
+2021-05-15 21:42:00,326 INFO: Detect outliers finished
+2021-05-15 21:43:52,823 INFO: Started to check the features consistency
+2021-05-15 21:43:52,858 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:43:52,860 INFO: Consistency values finished!
+2021-05-15 21:43:52,866 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:43:52,868 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:43:52,870 INFO: None feature were removed because the missing values
+2021-05-15 21:43:52,871 INFO: Handle missing values finished!
+2021-05-15 21:43:52,872 INFO: Detect outliers started
+2021-05-15 21:43:52,874 INFO: Local Outlier Factor method selected
+2021-05-15 21:43:52,894 INFO: Detected 146 outliers
+2021-05-15 21:43:52,895 INFO: Detect outliers finished
+2021-05-15 21:43:56,983 INFO: Started to check the features consistency
+2021-05-15 21:43:56,983 INFO: Started to check the features consistency
+2021-05-15 21:43:56,997 INFO: Features: [] were removed because its distribution
+2021-05-15 21:43:56,997 INFO: Features: [] were removed because its distribution
+2021-05-15 21:43:56,998 INFO: Consistency values finished!
+2021-05-15 21:43:56,998 INFO: Consistency values finished!
+2021-05-15 21:43:57,003 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:43:57,003 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:43:57,005 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:43:57,005 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:43:57,006 INFO: None feature were removed because the missing values
+2021-05-15 21:43:57,006 INFO: None feature were removed because the missing values
+2021-05-15 21:43:57,008 INFO: Handle missing values finished!
+2021-05-15 21:43:57,008 INFO: Handle missing values finished!
+2021-05-15 21:43:57,010 INFO: Detect outliers started
+2021-05-15 21:43:57,010 INFO: Detect outliers started
+2021-05-15 21:43:57,011 INFO: Local Outlier Factor method selected
+2021-05-15 21:43:57,011 INFO: Local Outlier Factor method selected
+2021-05-15 21:43:57,035 INFO: Detected 146 outliers
+2021-05-15 21:43:57,035 INFO: Detected 146 outliers
+2021-05-15 21:43:57,037 INFO: Detect outliers finished
+2021-05-15 21:43:57,037 INFO: Detect outliers finished
+2021-05-15 21:44:55,741 INFO: Started to check the features consistency
+2021-05-15 21:44:55,741 INFO: Started to check the features consistency
+2021-05-15 21:44:55,741 INFO: Started to check the features consistency
+2021-05-15 21:44:55,781 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:44:55,781 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:44:55,781 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:44:55,783 INFO: Consistency values finished!
+2021-05-15 21:44:55,783 INFO: Consistency values finished!
+2021-05-15 21:44:55,783 INFO: Consistency values finished!
+2021-05-15 21:44:55,787 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:44:55,787 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:44:55,787 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:44:55,790 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:44:55,790 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:44:55,790 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:44:55,792 INFO: None feature were removed because the missing values
+2021-05-15 21:44:55,792 INFO: None feature were removed because the missing values
+2021-05-15 21:44:55,792 INFO: None feature were removed because the missing values
+2021-05-15 21:44:55,794 INFO: Handle missing values finished!
+2021-05-15 21:44:55,794 INFO: Handle missing values finished!
+2021-05-15 21:44:55,794 INFO: Handle missing values finished!
+2021-05-15 21:44:55,795 INFO: Detect outliers started
+2021-05-15 21:44:55,795 INFO: Detect outliers started
+2021-05-15 21:44:55,795 INFO: Detect outliers started
+2021-05-15 21:44:55,797 INFO: Local Outlier Factor method selected
+2021-05-15 21:44:55,797 INFO: Local Outlier Factor method selected
+2021-05-15 21:44:55,797 INFO: Local Outlier Factor method selected
+2021-05-15 21:44:55,817 INFO: Detected 146 outliers
+2021-05-15 21:44:55,817 INFO: Detected 146 outliers
+2021-05-15 21:44:55,817 INFO: Detected 146 outliers
+2021-05-15 21:44:55,818 INFO: Detect outliers finished
+2021-05-15 21:44:55,818 INFO: Detect outliers finished
+2021-05-15 21:44:55,818 INFO: Detect outliers finished
+2021-05-15 21:46:50,959 INFO: Started to check the features consistency
+2021-05-15 21:46:50,959 INFO: Started to check the features consistency
+2021-05-15 21:46:50,959 INFO: Started to check the features consistency
+2021-05-15 21:46:50,959 INFO: Started to check the features consistency
+2021-05-15 21:46:50,986 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:46:50,986 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:46:50,986 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:46:50,986 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:46:50,987 INFO: Consistency values finished!
+2021-05-15 21:46:50,987 INFO: Consistency values finished!
+2021-05-15 21:46:50,987 INFO: Consistency values finished!
+2021-05-15 21:46:50,987 INFO: Consistency values finished!
+2021-05-15 21:46:50,993 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:46:50,993 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:46:50,993 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:46:50,993 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:46:50,996 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:46:50,996 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:46:50,996 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:46:50,996 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:46:50,998 INFO: None feature were removed because the missing values
+2021-05-15 21:46:50,998 INFO: None feature were removed because the missing values
+2021-05-15 21:46:50,998 INFO: None feature were removed because the missing values
+2021-05-15 21:46:50,998 INFO: None feature were removed because the missing values
+2021-05-15 21:46:50,999 INFO: Handle missing values finished!
+2021-05-15 21:46:50,999 INFO: Handle missing values finished!
+2021-05-15 21:46:50,999 INFO: Handle missing values finished!
+2021-05-15 21:46:50,999 INFO: Handle missing values finished!
+2021-05-15 21:46:51,002 INFO: Detect outliers started
+2021-05-15 21:46:51,002 INFO: Detect outliers started
+2021-05-15 21:46:51,002 INFO: Detect outliers started
+2021-05-15 21:46:51,002 INFO: Detect outliers started
+2021-05-15 21:46:51,003 INFO: Local Outlier Factor method selected
+2021-05-15 21:46:51,003 INFO: Local Outlier Factor method selected
+2021-05-15 21:46:51,003 INFO: Local Outlier Factor method selected
+2021-05-15 21:46:51,003 INFO: Local Outlier Factor method selected
+2021-05-15 21:46:51,027 INFO: Detected 146 outliers
+2021-05-15 21:46:51,027 INFO: Detected 146 outliers
+2021-05-15 21:46:51,027 INFO: Detected 146 outliers
+2021-05-15 21:46:51,027 INFO: Detected 146 outliers
+2021-05-15 21:46:51,028 INFO: Detect outliers finished
+2021-05-15 21:46:51,028 INFO: Detect outliers finished
+2021-05-15 21:46:51,028 INFO: Detect outliers finished
+2021-05-15 21:46:51,028 INFO: Detect outliers finished
+2021-05-15 21:46:58,891 INFO: Started to check the features consistency
+2021-05-15 21:46:58,891 INFO: Started to check the features consistency
+2021-05-15 21:46:58,891 INFO: Started to check the features consistency
+2021-05-15 21:46:58,891 INFO: Started to check the features consistency
+2021-05-15 21:46:58,891 INFO: Started to check the features consistency
+2021-05-15 21:46:58,920 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:46:58,920 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:46:58,920 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:46:58,920 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:46:58,920 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:46:58,922 INFO: Consistency values finished!
+2021-05-15 21:46:58,922 INFO: Consistency values finished!
+2021-05-15 21:46:58,922 INFO: Consistency values finished!
+2021-05-15 21:46:58,922 INFO: Consistency values finished!
+2021-05-15 21:46:58,922 INFO: Consistency values finished!
+2021-05-15 21:46:58,929 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:46:58,929 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:46:58,929 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:46:58,929 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:46:58,929 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:46:58,933 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:46:58,933 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:46:58,933 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:46:58,933 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:46:58,933 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:46:58,935 INFO: None feature were removed because the missing values
+2021-05-15 21:46:58,935 INFO: None feature were removed because the missing values
+2021-05-15 21:46:58,935 INFO: None feature were removed because the missing values
+2021-05-15 21:46:58,935 INFO: None feature were removed because the missing values
+2021-05-15 21:46:58,935 INFO: None feature were removed because the missing values
+2021-05-15 21:46:58,936 INFO: Handle missing values finished!
+2021-05-15 21:46:58,936 INFO: Handle missing values finished!
+2021-05-15 21:46:58,936 INFO: Handle missing values finished!
+2021-05-15 21:46:58,936 INFO: Handle missing values finished!
+2021-05-15 21:46:58,936 INFO: Handle missing values finished!
+2021-05-15 21:46:58,937 INFO: Detect outliers started
+2021-05-15 21:46:58,937 INFO: Detect outliers started
+2021-05-15 21:46:58,937 INFO: Detect outliers started
+2021-05-15 21:46:58,937 INFO: Detect outliers started
+2021-05-15 21:46:58,937 INFO: Detect outliers started
+2021-05-15 21:46:58,938 INFO: Local Outlier Factor method selected
+2021-05-15 21:46:58,938 INFO: Local Outlier Factor method selected
+2021-05-15 21:46:58,938 INFO: Local Outlier Factor method selected
+2021-05-15 21:46:58,938 INFO: Local Outlier Factor method selected
+2021-05-15 21:46:58,938 INFO: Local Outlier Factor method selected
+2021-05-15 21:46:58,963 INFO: Detected 146 outliers
+2021-05-15 21:46:58,963 INFO: Detected 146 outliers
+2021-05-15 21:46:58,963 INFO: Detected 146 outliers
+2021-05-15 21:46:58,963 INFO: Detected 146 outliers
+2021-05-15 21:46:58,963 INFO: Detected 146 outliers
+2021-05-15 21:46:58,964 INFO: Detect outliers finished
+2021-05-15 21:46:58,964 INFO: Detect outliers finished
+2021-05-15 21:46:58,964 INFO: Detect outliers finished
+2021-05-15 21:46:58,964 INFO: Detect outliers finished
+2021-05-15 21:46:58,964 INFO: Detect outliers finished
+2021-05-15 21:47:32,904 INFO: Started to check the features consistency
+2021-05-15 21:47:32,904 INFO: Started to check the features consistency
+2021-05-15 21:47:32,904 INFO: Started to check the features consistency
+2021-05-15 21:47:32,904 INFO: Started to check the features consistency
+2021-05-15 21:47:32,904 INFO: Started to check the features consistency
+2021-05-15 21:47:32,904 INFO: Started to check the features consistency
+2021-05-15 21:47:32,934 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:47:32,934 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:47:32,934 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:47:32,934 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:47:32,934 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:47:32,934 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:47:32,936 INFO: Consistency values finished!
+2021-05-15 21:47:32,936 INFO: Consistency values finished!
+2021-05-15 21:47:32,936 INFO: Consistency values finished!
+2021-05-15 21:47:32,936 INFO: Consistency values finished!
+2021-05-15 21:47:32,936 INFO: Consistency values finished!
+2021-05-15 21:47:32,936 INFO: Consistency values finished!
+2021-05-15 21:47:32,941 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:47:32,941 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:47:32,941 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:47:32,941 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:47:32,941 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:47:32,941 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:47:32,944 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:47:32,944 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:47:32,944 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:47:32,944 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:47:32,944 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:47:32,944 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:47:32,946 INFO: None feature were removed because the missing values
+2021-05-15 21:47:32,946 INFO: None feature were removed because the missing values
+2021-05-15 21:47:32,946 INFO: None feature were removed because the missing values
+2021-05-15 21:47:32,946 INFO: None feature were removed because the missing values
+2021-05-15 21:47:32,946 INFO: None feature were removed because the missing values
+2021-05-15 21:47:32,946 INFO: None feature were removed because the missing values
+2021-05-15 21:47:32,948 INFO: Handle missing values finished!
+2021-05-15 21:47:32,948 INFO: Handle missing values finished!
+2021-05-15 21:47:32,948 INFO: Handle missing values finished!
+2021-05-15 21:47:32,948 INFO: Handle missing values finished!
+2021-05-15 21:47:32,948 INFO: Handle missing values finished!
+2021-05-15 21:47:32,948 INFO: Handle missing values finished!
+2021-05-15 21:47:32,950 INFO: Detect outliers started
+2021-05-15 21:47:32,950 INFO: Detect outliers started
+2021-05-15 21:47:32,950 INFO: Detect outliers started
+2021-05-15 21:47:32,950 INFO: Detect outliers started
+2021-05-15 21:47:32,950 INFO: Detect outliers started
+2021-05-15 21:47:32,950 INFO: Detect outliers started
+2021-05-15 21:47:32,952 INFO: Local Outlier Factor method selected
+2021-05-15 21:47:32,952 INFO: Local Outlier Factor method selected
+2021-05-15 21:47:32,952 INFO: Local Outlier Factor method selected
+2021-05-15 21:47:32,952 INFO: Local Outlier Factor method selected
+2021-05-15 21:47:32,952 INFO: Local Outlier Factor method selected
+2021-05-15 21:47:32,952 INFO: Local Outlier Factor method selected
+2021-05-15 21:47:32,974 INFO: Detected 146 outliers
+2021-05-15 21:47:32,974 INFO: Detected 146 outliers
+2021-05-15 21:47:32,974 INFO: Detected 146 outliers
+2021-05-15 21:47:32,974 INFO: Detected 146 outliers
+2021-05-15 21:47:32,974 INFO: Detected 146 outliers
+2021-05-15 21:47:32,974 INFO: Detected 146 outliers
+2021-05-15 21:47:32,975 INFO: Detect outliers finished
+2021-05-15 21:47:32,975 INFO: Detect outliers finished
+2021-05-15 21:47:32,975 INFO: Detect outliers finished
+2021-05-15 21:47:32,975 INFO: Detect outliers finished
+2021-05-15 21:47:32,975 INFO: Detect outliers finished
+2021-05-15 21:47:32,975 INFO: Detect outliers finished
+2021-05-15 21:49:26,841 INFO: Started to check the features consistency
+2021-05-15 21:49:26,841 INFO: Started to check the features consistency
+2021-05-15 21:49:26,841 INFO: Started to check the features consistency
+2021-05-15 21:49:26,841 INFO: Started to check the features consistency
+2021-05-15 21:49:26,841 INFO: Started to check the features consistency
+2021-05-15 21:49:26,841 INFO: Started to check the features consistency
+2021-05-15 21:49:26,841 INFO: Started to check the features consistency
+2021-05-15 21:49:26,871 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:49:26,871 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:49:26,871 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:49:26,871 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:49:26,871 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:49:26,871 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:49:26,871 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:49:26,873 INFO: Consistency values finished!
+2021-05-15 21:49:26,873 INFO: Consistency values finished!
+2021-05-15 21:49:26,873 INFO: Consistency values finished!
+2021-05-15 21:49:26,873 INFO: Consistency values finished!
+2021-05-15 21:49:26,873 INFO: Consistency values finished!
+2021-05-15 21:49:26,873 INFO: Consistency values finished!
+2021-05-15 21:49:26,873 INFO: Consistency values finished!
+2021-05-15 21:49:26,878 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:49:26,878 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:49:26,878 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:49:26,878 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:49:26,878 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:49:26,878 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:49:26,878 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:49:26,881 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:49:26,881 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:49:26,881 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:49:26,881 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:49:26,881 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:49:26,881 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:49:26,881 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:49:26,883 INFO: None feature were removed because the missing values
+2021-05-15 21:49:26,883 INFO: None feature were removed because the missing values
+2021-05-15 21:49:26,883 INFO: None feature were removed because the missing values
+2021-05-15 21:49:26,883 INFO: None feature were removed because the missing values
+2021-05-15 21:49:26,883 INFO: None feature were removed because the missing values
+2021-05-15 21:49:26,883 INFO: None feature were removed because the missing values
+2021-05-15 21:49:26,883 INFO: None feature were removed because the missing values
+2021-05-15 21:49:26,885 INFO: Handle missing values finished!
+2021-05-15 21:49:26,885 INFO: Handle missing values finished!
+2021-05-15 21:49:26,885 INFO: Handle missing values finished!
+2021-05-15 21:49:26,885 INFO: Handle missing values finished!
+2021-05-15 21:49:26,885 INFO: Handle missing values finished!
+2021-05-15 21:49:26,885 INFO: Handle missing values finished!
+2021-05-15 21:49:26,885 INFO: Handle missing values finished!
+2021-05-15 21:49:26,887 INFO: Detect outliers started
+2021-05-15 21:49:26,887 INFO: Detect outliers started
+2021-05-15 21:49:26,887 INFO: Detect outliers started
+2021-05-15 21:49:26,887 INFO: Detect outliers started
+2021-05-15 21:49:26,887 INFO: Detect outliers started
+2021-05-15 21:49:26,887 INFO: Detect outliers started
+2021-05-15 21:49:26,887 INFO: Detect outliers started
+2021-05-15 21:49:26,889 INFO: Local Outlier Factor method selected
+2021-05-15 21:49:26,889 INFO: Local Outlier Factor method selected
+2021-05-15 21:49:26,889 INFO: Local Outlier Factor method selected
+2021-05-15 21:49:26,889 INFO: Local Outlier Factor method selected
+2021-05-15 21:49:26,889 INFO: Local Outlier Factor method selected
+2021-05-15 21:49:26,889 INFO: Local Outlier Factor method selected
+2021-05-15 21:49:26,889 INFO: Local Outlier Factor method selected
+2021-05-15 21:49:26,915 INFO: Detected 146 outliers
+2021-05-15 21:49:26,915 INFO: Detected 146 outliers
+2021-05-15 21:49:26,915 INFO: Detected 146 outliers
+2021-05-15 21:49:26,915 INFO: Detected 146 outliers
+2021-05-15 21:49:26,915 INFO: Detected 146 outliers
+2021-05-15 21:49:26,915 INFO: Detected 146 outliers
+2021-05-15 21:49:26,915 INFO: Detected 146 outliers
+2021-05-15 21:49:26,918 INFO: Detect outliers finished
+2021-05-15 21:49:26,918 INFO: Detect outliers finished
+2021-05-15 21:49:26,918 INFO: Detect outliers finished
+2021-05-15 21:49:26,918 INFO: Detect outliers finished
+2021-05-15 21:49:26,918 INFO: Detect outliers finished
+2021-05-15 21:49:26,918 INFO: Detect outliers finished
+2021-05-15 21:49:26,918 INFO: Detect outliers finished
+2021-05-15 21:52:07,752 INFO: Started to check the features consistency
+2021-05-15 21:52:07,752 INFO: Started to check the features consistency
+2021-05-15 21:52:07,752 INFO: Started to check the features consistency
+2021-05-15 21:52:07,752 INFO: Started to check the features consistency
+2021-05-15 21:52:07,752 INFO: Started to check the features consistency
+2021-05-15 21:52:07,752 INFO: Started to check the features consistency
+2021-05-15 21:52:07,752 INFO: Started to check the features consistency
+2021-05-15 21:52:07,752 INFO: Started to check the features consistency
+2021-05-15 21:52:07,786 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:52:07,786 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:52:07,786 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:52:07,786 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:52:07,786 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:52:07,786 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:52:07,786 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:52:07,786 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:52:07,787 INFO: Consistency values finished!
+2021-05-15 21:52:07,787 INFO: Consistency values finished!
+2021-05-15 21:52:07,787 INFO: Consistency values finished!
+2021-05-15 21:52:07,787 INFO: Consistency values finished!
+2021-05-15 21:52:07,787 INFO: Consistency values finished!
+2021-05-15 21:52:07,787 INFO: Consistency values finished!
+2021-05-15 21:52:07,787 INFO: Consistency values finished!
+2021-05-15 21:52:07,787 INFO: Consistency values finished!
+2021-05-15 21:52:07,791 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:52:07,791 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:52:07,791 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:52:07,791 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:52:07,791 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:52:07,791 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:52:07,791 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:52:07,791 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:52:07,793 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:52:07,793 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:52:07,793 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:52:07,793 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:52:07,793 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:52:07,793 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:52:07,793 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:52:07,793 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:52:07,794 INFO: None feature were removed because the missing values
+2021-05-15 21:52:07,794 INFO: None feature were removed because the missing values
+2021-05-15 21:52:07,794 INFO: None feature were removed because the missing values
+2021-05-15 21:52:07,794 INFO: None feature were removed because the missing values
+2021-05-15 21:52:07,794 INFO: None feature were removed because the missing values
+2021-05-15 21:52:07,794 INFO: None feature were removed because the missing values
+2021-05-15 21:52:07,794 INFO: None feature were removed because the missing values
+2021-05-15 21:52:07,794 INFO: None feature were removed because the missing values
+2021-05-15 21:52:07,795 INFO: Handle missing values finished!
+2021-05-15 21:52:07,795 INFO: Handle missing values finished!
+2021-05-15 21:52:07,795 INFO: Handle missing values finished!
+2021-05-15 21:52:07,795 INFO: Handle missing values finished!
+2021-05-15 21:52:07,795 INFO: Handle missing values finished!
+2021-05-15 21:52:07,795 INFO: Handle missing values finished!
+2021-05-15 21:52:07,795 INFO: Handle missing values finished!
+2021-05-15 21:52:07,795 INFO: Handle missing values finished!
+2021-05-15 21:52:07,796 INFO: Detect outliers started
+2021-05-15 21:52:07,796 INFO: Detect outliers started
+2021-05-15 21:52:07,796 INFO: Detect outliers started
+2021-05-15 21:52:07,796 INFO: Detect outliers started
+2021-05-15 21:52:07,796 INFO: Detect outliers started
+2021-05-15 21:52:07,796 INFO: Detect outliers started
+2021-05-15 21:52:07,796 INFO: Detect outliers started
+2021-05-15 21:52:07,796 INFO: Detect outliers started
+2021-05-15 21:52:07,797 INFO: Local Outlier Factor method selected
+2021-05-15 21:52:07,797 INFO: Local Outlier Factor method selected
+2021-05-15 21:52:07,797 INFO: Local Outlier Factor method selected
+2021-05-15 21:52:07,797 INFO: Local Outlier Factor method selected
+2021-05-15 21:52:07,797 INFO: Local Outlier Factor method selected
+2021-05-15 21:52:07,797 INFO: Local Outlier Factor method selected
+2021-05-15 21:52:07,797 INFO: Local Outlier Factor method selected
+2021-05-15 21:52:07,797 INFO: Local Outlier Factor method selected
+2021-05-15 21:52:07,822 INFO: Detected 146 outliers
+2021-05-15 21:52:07,822 INFO: Detected 146 outliers
+2021-05-15 21:52:07,822 INFO: Detected 146 outliers
+2021-05-15 21:52:07,822 INFO: Detected 146 outliers
+2021-05-15 21:52:07,822 INFO: Detected 146 outliers
+2021-05-15 21:52:07,822 INFO: Detected 146 outliers
+2021-05-15 21:52:07,822 INFO: Detected 146 outliers
+2021-05-15 21:52:07,822 INFO: Detected 146 outliers
+2021-05-15 21:52:07,824 INFO: Detect outliers finished
+2021-05-15 21:52:07,824 INFO: Detect outliers finished
+2021-05-15 21:52:07,824 INFO: Detect outliers finished
+2021-05-15 21:52:07,824 INFO: Detect outliers finished
+2021-05-15 21:52:07,824 INFO: Detect outliers finished
+2021-05-15 21:52:07,824 INFO: Detect outliers finished
+2021-05-15 21:52:07,824 INFO: Detect outliers finished
+2021-05-15 21:52:07,824 INFO: Detect outliers finished
+2021-05-15 21:54:42,528 INFO: Started to check the features consistency
+2021-05-15 21:54:42,528 INFO: Started to check the features consistency
+2021-05-15 21:54:42,528 INFO: Started to check the features consistency
+2021-05-15 21:54:42,528 INFO: Started to check the features consistency
+2021-05-15 21:54:42,528 INFO: Started to check the features consistency
+2021-05-15 21:54:42,528 INFO: Started to check the features consistency
+2021-05-15 21:54:42,528 INFO: Started to check the features consistency
+2021-05-15 21:54:42,528 INFO: Started to check the features consistency
+2021-05-15 21:54:42,528 INFO: Started to check the features consistency
+2021-05-15 21:54:42,560 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:54:42,560 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:54:42,560 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:54:42,560 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:54:42,560 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:54:42,560 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:54:42,560 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:54:42,560 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:54:42,560 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:54:42,561 INFO: Consistency values finished!
+2021-05-15 21:54:42,561 INFO: Consistency values finished!
+2021-05-15 21:54:42,561 INFO: Consistency values finished!
+2021-05-15 21:54:42,561 INFO: Consistency values finished!
+2021-05-15 21:54:42,561 INFO: Consistency values finished!
+2021-05-15 21:54:42,561 INFO: Consistency values finished!
+2021-05-15 21:54:42,561 INFO: Consistency values finished!
+2021-05-15 21:54:42,561 INFO: Consistency values finished!
+2021-05-15 21:54:42,561 INFO: Consistency values finished!
+2021-05-15 21:54:42,568 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:54:42,568 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:54:42,568 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:54:42,568 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:54:42,568 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:54:42,568 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:54:42,568 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:54:42,568 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:54:42,568 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:54:42,571 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:54:42,571 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:54:42,571 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:54:42,571 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:54:42,571 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:54:42,571 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:54:42,571 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:54:42,571 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:54:42,571 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:54:42,573 INFO: None feature were removed because the missing values
+2021-05-15 21:54:42,573 INFO: None feature were removed because the missing values
+2021-05-15 21:54:42,573 INFO: None feature were removed because the missing values
+2021-05-15 21:54:42,573 INFO: None feature were removed because the missing values
+2021-05-15 21:54:42,573 INFO: None feature were removed because the missing values
+2021-05-15 21:54:42,573 INFO: None feature were removed because the missing values
+2021-05-15 21:54:42,573 INFO: None feature were removed because the missing values
+2021-05-15 21:54:42,573 INFO: None feature were removed because the missing values
+2021-05-15 21:54:42,573 INFO: None feature were removed because the missing values
+2021-05-15 21:54:42,574 INFO: Handle missing values finished!
+2021-05-15 21:54:42,574 INFO: Handle missing values finished!
+2021-05-15 21:54:42,574 INFO: Handle missing values finished!
+2021-05-15 21:54:42,574 INFO: Handle missing values finished!
+2021-05-15 21:54:42,574 INFO: Handle missing values finished!
+2021-05-15 21:54:42,574 INFO: Handle missing values finished!
+2021-05-15 21:54:42,574 INFO: Handle missing values finished!
+2021-05-15 21:54:42,574 INFO: Handle missing values finished!
+2021-05-15 21:54:42,574 INFO: Handle missing values finished!
+2021-05-15 21:54:42,575 INFO: Detect outliers started
+2021-05-15 21:54:42,575 INFO: Detect outliers started
+2021-05-15 21:54:42,575 INFO: Detect outliers started
+2021-05-15 21:54:42,575 INFO: Detect outliers started
+2021-05-15 21:54:42,575 INFO: Detect outliers started
+2021-05-15 21:54:42,575 INFO: Detect outliers started
+2021-05-15 21:54:42,575 INFO: Detect outliers started
+2021-05-15 21:54:42,575 INFO: Detect outliers started
+2021-05-15 21:54:42,575 INFO: Detect outliers started
+2021-05-15 21:54:42,576 INFO: Local Outlier Factor method selected
+2021-05-15 21:54:42,576 INFO: Local Outlier Factor method selected
+2021-05-15 21:54:42,576 INFO: Local Outlier Factor method selected
+2021-05-15 21:54:42,576 INFO: Local Outlier Factor method selected
+2021-05-15 21:54:42,576 INFO: Local Outlier Factor method selected
+2021-05-15 21:54:42,576 INFO: Local Outlier Factor method selected
+2021-05-15 21:54:42,576 INFO: Local Outlier Factor method selected
+2021-05-15 21:54:42,576 INFO: Local Outlier Factor method selected
+2021-05-15 21:54:42,576 INFO: Local Outlier Factor method selected
+2021-05-15 21:54:42,596 INFO: Detected 146 outliers
+2021-05-15 21:54:42,596 INFO: Detected 146 outliers
+2021-05-15 21:54:42,596 INFO: Detected 146 outliers
+2021-05-15 21:54:42,596 INFO: Detected 146 outliers
+2021-05-15 21:54:42,596 INFO: Detected 146 outliers
+2021-05-15 21:54:42,596 INFO: Detected 146 outliers
+2021-05-15 21:54:42,596 INFO: Detected 146 outliers
+2021-05-15 21:54:42,596 INFO: Detected 146 outliers
+2021-05-15 21:54:42,596 INFO: Detected 146 outliers
+2021-05-15 21:54:42,597 INFO: Detect outliers finished
+2021-05-15 21:54:42,597 INFO: Detect outliers finished
+2021-05-15 21:54:42,597 INFO: Detect outliers finished
+2021-05-15 21:54:42,597 INFO: Detect outliers finished
+2021-05-15 21:54:42,597 INFO: Detect outliers finished
+2021-05-15 21:54:42,597 INFO: Detect outliers finished
+2021-05-15 21:54:42,597 INFO: Detect outliers finished
+2021-05-15 21:54:42,597 INFO: Detect outliers finished
+2021-05-15 21:54:42,597 INFO: Detect outliers finished
+2021-05-15 21:56:03,756 INFO: Started to check the features consistency
+2021-05-15 21:56:03,756 INFO: Started to check the features consistency
+2021-05-15 21:56:03,756 INFO: Started to check the features consistency
+2021-05-15 21:56:03,756 INFO: Started to check the features consistency
+2021-05-15 21:56:03,756 INFO: Started to check the features consistency
+2021-05-15 21:56:03,756 INFO: Started to check the features consistency
+2021-05-15 21:56:03,756 INFO: Started to check the features consistency
+2021-05-15 21:56:03,756 INFO: Started to check the features consistency
+2021-05-15 21:56:03,756 INFO: Started to check the features consistency
+2021-05-15 21:56:03,756 INFO: Started to check the features consistency
+2021-05-15 21:56:03,790 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:56:03,790 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:56:03,790 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:56:03,790 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:56:03,790 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:56:03,790 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:56:03,790 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:56:03,790 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:56:03,790 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:56:03,790 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:56:03,793 INFO: Consistency values finished!
+2021-05-15 21:56:03,793 INFO: Consistency values finished!
+2021-05-15 21:56:03,793 INFO: Consistency values finished!
+2021-05-15 21:56:03,793 INFO: Consistency values finished!
+2021-05-15 21:56:03,793 INFO: Consistency values finished!
+2021-05-15 21:56:03,793 INFO: Consistency values finished!
+2021-05-15 21:56:03,793 INFO: Consistency values finished!
+2021-05-15 21:56:03,793 INFO: Consistency values finished!
+2021-05-15 21:56:03,793 INFO: Consistency values finished!
+2021-05-15 21:56:03,793 INFO: Consistency values finished!
+2021-05-15 21:56:03,798 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:56:03,798 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:56:03,798 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:56:03,798 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:56:03,798 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:56:03,798 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:56:03,798 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:56:03,798 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:56:03,798 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:56:03,798 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:56:03,802 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:56:03,802 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:56:03,802 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:56:03,802 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:56:03,802 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:56:03,802 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:56:03,802 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:56:03,802 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:56:03,802 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:56:03,802 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:56:03,805 INFO: None feature were removed because the missing values
+2021-05-15 21:56:03,805 INFO: None feature were removed because the missing values
+2021-05-15 21:56:03,805 INFO: None feature were removed because the missing values
+2021-05-15 21:56:03,805 INFO: None feature were removed because the missing values
+2021-05-15 21:56:03,805 INFO: None feature were removed because the missing values
+2021-05-15 21:56:03,805 INFO: None feature were removed because the missing values
+2021-05-15 21:56:03,805 INFO: None feature were removed because the missing values
+2021-05-15 21:56:03,805 INFO: None feature were removed because the missing values
+2021-05-15 21:56:03,805 INFO: None feature were removed because the missing values
+2021-05-15 21:56:03,805 INFO: None feature were removed because the missing values
+2021-05-15 21:56:03,808 INFO: Handle missing values finished!
+2021-05-15 21:56:03,808 INFO: Handle missing values finished!
+2021-05-15 21:56:03,808 INFO: Handle missing values finished!
+2021-05-15 21:56:03,808 INFO: Handle missing values finished!
+2021-05-15 21:56:03,808 INFO: Handle missing values finished!
+2021-05-15 21:56:03,808 INFO: Handle missing values finished!
+2021-05-15 21:56:03,808 INFO: Handle missing values finished!
+2021-05-15 21:56:03,808 INFO: Handle missing values finished!
+2021-05-15 21:56:03,808 INFO: Handle missing values finished!
+2021-05-15 21:56:03,808 INFO: Handle missing values finished!
+2021-05-15 21:56:03,810 INFO: Detect outliers started
+2021-05-15 21:56:03,810 INFO: Detect outliers started
+2021-05-15 21:56:03,810 INFO: Detect outliers started
+2021-05-15 21:56:03,810 INFO: Detect outliers started
+2021-05-15 21:56:03,810 INFO: Detect outliers started
+2021-05-15 21:56:03,810 INFO: Detect outliers started
+2021-05-15 21:56:03,810 INFO: Detect outliers started
+2021-05-15 21:56:03,810 INFO: Detect outliers started
+2021-05-15 21:56:03,810 INFO: Detect outliers started
+2021-05-15 21:56:03,810 INFO: Detect outliers started
+2021-05-15 21:56:03,811 INFO: Local Outlier Factor method selected
+2021-05-15 21:56:03,811 INFO: Local Outlier Factor method selected
+2021-05-15 21:56:03,811 INFO: Local Outlier Factor method selected
+2021-05-15 21:56:03,811 INFO: Local Outlier Factor method selected
+2021-05-15 21:56:03,811 INFO: Local Outlier Factor method selected
+2021-05-15 21:56:03,811 INFO: Local Outlier Factor method selected
+2021-05-15 21:56:03,811 INFO: Local Outlier Factor method selected
+2021-05-15 21:56:03,811 INFO: Local Outlier Factor method selected
+2021-05-15 21:56:03,811 INFO: Local Outlier Factor method selected
+2021-05-15 21:56:03,811 INFO: Local Outlier Factor method selected
+2021-05-15 21:56:03,842 INFO: Detected 146 outliers
+2021-05-15 21:56:03,842 INFO: Detected 146 outliers
+2021-05-15 21:56:03,842 INFO: Detected 146 outliers
+2021-05-15 21:56:03,842 INFO: Detected 146 outliers
+2021-05-15 21:56:03,842 INFO: Detected 146 outliers
+2021-05-15 21:56:03,842 INFO: Detected 146 outliers
+2021-05-15 21:56:03,842 INFO: Detected 146 outliers
+2021-05-15 21:56:03,842 INFO: Detected 146 outliers
+2021-05-15 21:56:03,842 INFO: Detected 146 outliers
+2021-05-15 21:56:03,842 INFO: Detected 146 outliers
+2021-05-15 21:56:03,844 INFO: Detect outliers finished
+2021-05-15 21:56:03,844 INFO: Detect outliers finished
+2021-05-15 21:56:03,844 INFO: Detect outliers finished
+2021-05-15 21:56:03,844 INFO: Detect outliers finished
+2021-05-15 21:56:03,844 INFO: Detect outliers finished
+2021-05-15 21:56:03,844 INFO: Detect outliers finished
+2021-05-15 21:56:03,844 INFO: Detect outliers finished
+2021-05-15 21:56:03,844 INFO: Detect outliers finished
+2021-05-15 21:56:03,844 INFO: Detect outliers finished
+2021-05-15 21:56:03,844 INFO: Detect outliers finished
+2021-05-15 21:57:44,103 INFO: Started to check the features consistency
+2021-05-15 21:57:44,103 INFO: Started to check the features consistency
+2021-05-15 21:57:44,103 INFO: Started to check the features consistency
+2021-05-15 21:57:44,103 INFO: Started to check the features consistency
+2021-05-15 21:57:44,103 INFO: Started to check the features consistency
+2021-05-15 21:57:44,103 INFO: Started to check the features consistency
+2021-05-15 21:57:44,103 INFO: Started to check the features consistency
+2021-05-15 21:57:44,103 INFO: Started to check the features consistency
+2021-05-15 21:57:44,103 INFO: Started to check the features consistency
+2021-05-15 21:57:44,103 INFO: Started to check the features consistency
+2021-05-15 21:57:44,103 INFO: Started to check the features consistency
+2021-05-15 21:57:44,133 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:57:44,133 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:57:44,133 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:57:44,133 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:57:44,133 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:57:44,133 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:57:44,133 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:57:44,133 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:57:44,133 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:57:44,133 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:57:44,133 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:57:44,134 INFO: Consistency values finished!
+2021-05-15 21:57:44,134 INFO: Consistency values finished!
+2021-05-15 21:57:44,134 INFO: Consistency values finished!
+2021-05-15 21:57:44,134 INFO: Consistency values finished!
+2021-05-15 21:57:44,134 INFO: Consistency values finished!
+2021-05-15 21:57:44,134 INFO: Consistency values finished!
+2021-05-15 21:57:44,134 INFO: Consistency values finished!
+2021-05-15 21:57:44,134 INFO: Consistency values finished!
+2021-05-15 21:57:44,134 INFO: Consistency values finished!
+2021-05-15 21:57:44,134 INFO: Consistency values finished!
+2021-05-15 21:57:44,134 INFO: Consistency values finished!
+2021-05-15 21:57:44,142 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:57:44,142 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:57:44,142 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:57:44,142 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:57:44,142 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:57:44,142 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:57:44,142 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:57:44,142 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:57:44,142 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:57:44,142 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:57:44,142 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:57:44,146 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:57:44,146 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:57:44,146 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:57:44,146 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:57:44,146 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:57:44,146 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:57:44,146 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:57:44,146 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:57:44,146 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:57:44,146 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:57:44,146 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:57:44,149 INFO: None feature were removed because the missing values
+2021-05-15 21:57:44,149 INFO: None feature were removed because the missing values
+2021-05-15 21:57:44,149 INFO: None feature were removed because the missing values
+2021-05-15 21:57:44,149 INFO: None feature were removed because the missing values
+2021-05-15 21:57:44,149 INFO: None feature were removed because the missing values
+2021-05-15 21:57:44,149 INFO: None feature were removed because the missing values
+2021-05-15 21:57:44,149 INFO: None feature were removed because the missing values
+2021-05-15 21:57:44,149 INFO: None feature were removed because the missing values
+2021-05-15 21:57:44,149 INFO: None feature were removed because the missing values
+2021-05-15 21:57:44,149 INFO: None feature were removed because the missing values
+2021-05-15 21:57:44,149 INFO: None feature were removed because the missing values
+2021-05-15 21:57:44,151 INFO: Handle missing values finished!
+2021-05-15 21:57:44,151 INFO: Handle missing values finished!
+2021-05-15 21:57:44,151 INFO: Handle missing values finished!
+2021-05-15 21:57:44,151 INFO: Handle missing values finished!
+2021-05-15 21:57:44,151 INFO: Handle missing values finished!
+2021-05-15 21:57:44,151 INFO: Handle missing values finished!
+2021-05-15 21:57:44,151 INFO: Handle missing values finished!
+2021-05-15 21:57:44,151 INFO: Handle missing values finished!
+2021-05-15 21:57:44,151 INFO: Handle missing values finished!
+2021-05-15 21:57:44,151 INFO: Handle missing values finished!
+2021-05-15 21:57:44,151 INFO: Handle missing values finished!
+2021-05-15 21:57:44,153 INFO: Detect outliers started
+2021-05-15 21:57:44,153 INFO: Detect outliers started
+2021-05-15 21:57:44,153 INFO: Detect outliers started
+2021-05-15 21:57:44,153 INFO: Detect outliers started
+2021-05-15 21:57:44,153 INFO: Detect outliers started
+2021-05-15 21:57:44,153 INFO: Detect outliers started
+2021-05-15 21:57:44,153 INFO: Detect outliers started
+2021-05-15 21:57:44,153 INFO: Detect outliers started
+2021-05-15 21:57:44,153 INFO: Detect outliers started
+2021-05-15 21:57:44,153 INFO: Detect outliers started
+2021-05-15 21:57:44,153 INFO: Detect outliers started
+2021-05-15 21:57:44,155 INFO: Local Outlier Factor method selected
+2021-05-15 21:57:44,155 INFO: Local Outlier Factor method selected
+2021-05-15 21:57:44,155 INFO: Local Outlier Factor method selected
+2021-05-15 21:57:44,155 INFO: Local Outlier Factor method selected
+2021-05-15 21:57:44,155 INFO: Local Outlier Factor method selected
+2021-05-15 21:57:44,155 INFO: Local Outlier Factor method selected
+2021-05-15 21:57:44,155 INFO: Local Outlier Factor method selected
+2021-05-15 21:57:44,155 INFO: Local Outlier Factor method selected
+2021-05-15 21:57:44,155 INFO: Local Outlier Factor method selected
+2021-05-15 21:57:44,155 INFO: Local Outlier Factor method selected
+2021-05-15 21:57:44,155 INFO: Local Outlier Factor method selected
+2021-05-15 21:57:44,179 INFO: Detected 146 outliers
+2021-05-15 21:57:44,179 INFO: Detected 146 outliers
+2021-05-15 21:57:44,179 INFO: Detected 146 outliers
+2021-05-15 21:57:44,179 INFO: Detected 146 outliers
+2021-05-15 21:57:44,179 INFO: Detected 146 outliers
+2021-05-15 21:57:44,179 INFO: Detected 146 outliers
+2021-05-15 21:57:44,179 INFO: Detected 146 outliers
+2021-05-15 21:57:44,179 INFO: Detected 146 outliers
+2021-05-15 21:57:44,179 INFO: Detected 146 outliers
+2021-05-15 21:57:44,179 INFO: Detected 146 outliers
+2021-05-15 21:57:44,179 INFO: Detected 146 outliers
+2021-05-15 21:57:44,182 INFO: Detect outliers finished
+2021-05-15 21:57:44,182 INFO: Detect outliers finished
+2021-05-15 21:57:44,182 INFO: Detect outliers finished
+2021-05-15 21:57:44,182 INFO: Detect outliers finished
+2021-05-15 21:57:44,182 INFO: Detect outliers finished
+2021-05-15 21:57:44,182 INFO: Detect outliers finished
+2021-05-15 21:57:44,182 INFO: Detect outliers finished
+2021-05-15 21:57:44,182 INFO: Detect outliers finished
+2021-05-15 21:57:44,182 INFO: Detect outliers finished
+2021-05-15 21:57:44,182 INFO: Detect outliers finished
+2021-05-15 21:57:44,182 INFO: Detect outliers finished
+2021-05-15 21:59:03,536 INFO: Started to check the features consistency
+2021-05-15 21:59:03,536 INFO: Started to check the features consistency
+2021-05-15 21:59:03,536 INFO: Started to check the features consistency
+2021-05-15 21:59:03,536 INFO: Started to check the features consistency
+2021-05-15 21:59:03,536 INFO: Started to check the features consistency
+2021-05-15 21:59:03,536 INFO: Started to check the features consistency
+2021-05-15 21:59:03,536 INFO: Started to check the features consistency
+2021-05-15 21:59:03,536 INFO: Started to check the features consistency
+2021-05-15 21:59:03,536 INFO: Started to check the features consistency
+2021-05-15 21:59:03,536 INFO: Started to check the features consistency
+2021-05-15 21:59:03,536 INFO: Started to check the features consistency
+2021-05-15 21:59:03,536 INFO: Started to check the features consistency
+2021-05-15 21:59:03,569 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:59:03,569 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:59:03,569 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:59:03,569 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:59:03,569 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:59:03,569 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:59:03,569 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:59:03,569 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:59:03,569 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:59:03,569 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:59:03,569 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:59:03,569 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 21:59:03,570 INFO: Consistency values finished!
+2021-05-15 21:59:03,570 INFO: Consistency values finished!
+2021-05-15 21:59:03,570 INFO: Consistency values finished!
+2021-05-15 21:59:03,570 INFO: Consistency values finished!
+2021-05-15 21:59:03,570 INFO: Consistency values finished!
+2021-05-15 21:59:03,570 INFO: Consistency values finished!
+2021-05-15 21:59:03,570 INFO: Consistency values finished!
+2021-05-15 21:59:03,570 INFO: Consistency values finished!
+2021-05-15 21:59:03,570 INFO: Consistency values finished!
+2021-05-15 21:59:03,570 INFO: Consistency values finished!
+2021-05-15 21:59:03,570 INFO: Consistency values finished!
+2021-05-15 21:59:03,570 INFO: Consistency values finished!
+2021-05-15 21:59:03,575 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:59:03,575 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:59:03,575 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:59:03,575 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:59:03,575 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:59:03,575 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:59:03,575 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:59:03,575 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:59:03,575 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:59:03,575 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:59:03,575 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:59:03,575 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 21:59:03,579 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:59:03,579 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:59:03,579 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:59:03,579 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:59:03,579 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:59:03,579 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:59:03,579 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:59:03,579 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:59:03,579 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:59:03,579 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:59:03,579 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:59:03,579 INFO: Feature Embarked was imputer with "other"
+2021-05-15 21:59:03,580 INFO: None feature were removed because the missing values
+2021-05-15 21:59:03,580 INFO: None feature were removed because the missing values
+2021-05-15 21:59:03,580 INFO: None feature were removed because the missing values
+2021-05-15 21:59:03,580 INFO: None feature were removed because the missing values
+2021-05-15 21:59:03,580 INFO: None feature were removed because the missing values
+2021-05-15 21:59:03,580 INFO: None feature were removed because the missing values
+2021-05-15 21:59:03,580 INFO: None feature were removed because the missing values
+2021-05-15 21:59:03,580 INFO: None feature were removed because the missing values
+2021-05-15 21:59:03,580 INFO: None feature were removed because the missing values
+2021-05-15 21:59:03,580 INFO: None feature were removed because the missing values
+2021-05-15 21:59:03,580 INFO: None feature were removed because the missing values
+2021-05-15 21:59:03,580 INFO: None feature were removed because the missing values
+2021-05-15 21:59:03,582 INFO: Handle missing values finished!
+2021-05-15 21:59:03,582 INFO: Handle missing values finished!
+2021-05-15 21:59:03,582 INFO: Handle missing values finished!
+2021-05-15 21:59:03,582 INFO: Handle missing values finished!
+2021-05-15 21:59:03,582 INFO: Handle missing values finished!
+2021-05-15 21:59:03,582 INFO: Handle missing values finished!
+2021-05-15 21:59:03,582 INFO: Handle missing values finished!
+2021-05-15 21:59:03,582 INFO: Handle missing values finished!
+2021-05-15 21:59:03,582 INFO: Handle missing values finished!
+2021-05-15 21:59:03,582 INFO: Handle missing values finished!
+2021-05-15 21:59:03,582 INFO: Handle missing values finished!
+2021-05-15 21:59:03,582 INFO: Handle missing values finished!
+2021-05-15 21:59:03,584 INFO: Detect outliers started
+2021-05-15 21:59:03,584 INFO: Detect outliers started
+2021-05-15 21:59:03,584 INFO: Detect outliers started
+2021-05-15 21:59:03,584 INFO: Detect outliers started
+2021-05-15 21:59:03,584 INFO: Detect outliers started
+2021-05-15 21:59:03,584 INFO: Detect outliers started
+2021-05-15 21:59:03,584 INFO: Detect outliers started
+2021-05-15 21:59:03,584 INFO: Detect outliers started
+2021-05-15 21:59:03,584 INFO: Detect outliers started
+2021-05-15 21:59:03,584 INFO: Detect outliers started
+2021-05-15 21:59:03,584 INFO: Detect outliers started
+2021-05-15 21:59:03,584 INFO: Detect outliers started
+2021-05-15 21:59:03,586 INFO: Local Outlier Factor method selected
+2021-05-15 21:59:03,586 INFO: Local Outlier Factor method selected
+2021-05-15 21:59:03,586 INFO: Local Outlier Factor method selected
+2021-05-15 21:59:03,586 INFO: Local Outlier Factor method selected
+2021-05-15 21:59:03,586 INFO: Local Outlier Factor method selected
+2021-05-15 21:59:03,586 INFO: Local Outlier Factor method selected
+2021-05-15 21:59:03,586 INFO: Local Outlier Factor method selected
+2021-05-15 21:59:03,586 INFO: Local Outlier Factor method selected
+2021-05-15 21:59:03,586 INFO: Local Outlier Factor method selected
+2021-05-15 21:59:03,586 INFO: Local Outlier Factor method selected
+2021-05-15 21:59:03,586 INFO: Local Outlier Factor method selected
+2021-05-15 21:59:03,586 INFO: Local Outlier Factor method selected
+2021-05-15 21:59:03,608 INFO: Detected 146 outliers
+2021-05-15 21:59:03,608 INFO: Detected 146 outliers
+2021-05-15 21:59:03,608 INFO: Detected 146 outliers
+2021-05-15 21:59:03,608 INFO: Detected 146 outliers
+2021-05-15 21:59:03,608 INFO: Detected 146 outliers
+2021-05-15 21:59:03,608 INFO: Detected 146 outliers
+2021-05-15 21:59:03,608 INFO: Detected 146 outliers
+2021-05-15 21:59:03,608 INFO: Detected 146 outliers
+2021-05-15 21:59:03,608 INFO: Detected 146 outliers
+2021-05-15 21:59:03,608 INFO: Detected 146 outliers
+2021-05-15 21:59:03,608 INFO: Detected 146 outliers
+2021-05-15 21:59:03,608 INFO: Detected 146 outliers
+2021-05-15 21:59:03,610 INFO: Detect outliers finished
+2021-05-15 21:59:03,610 INFO: Detect outliers finished
+2021-05-15 21:59:03,610 INFO: Detect outliers finished
+2021-05-15 21:59:03,610 INFO: Detect outliers finished
+2021-05-15 21:59:03,610 INFO: Detect outliers finished
+2021-05-15 21:59:03,610 INFO: Detect outliers finished
+2021-05-15 21:59:03,610 INFO: Detect outliers finished
+2021-05-15 21:59:03,610 INFO: Detect outliers finished
+2021-05-15 21:59:03,610 INFO: Detect outliers finished
+2021-05-15 21:59:03,610 INFO: Detect outliers finished
+2021-05-15 21:59:03,610 INFO: Detect outliers finished
+2021-05-15 21:59:03,610 INFO: Detect outliers finished
+2021-05-15 22:00:57,820 INFO: Started to check the features consistency
+2021-05-15 22:00:57,853 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:00:57,854 INFO: Consistency values finished!
+2021-05-15 22:00:57,858 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:00:57,860 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:00:57,862 INFO: None feature were removed because the missing values
+2021-05-15 22:00:57,863 INFO: Handle missing values finished!
+2021-05-15 22:00:57,864 INFO: Detect outliers started
+2021-05-15 22:00:57,866 INFO: Local Outlier Factor method selected
+2021-05-15 22:00:57,889 INFO: Detected 146 outliers
+2021-05-15 22:00:57,891 INFO: Detect outliers finished
+2021-05-15 22:02:10,606 INFO: Started to check the features consistency
+2021-05-15 22:02:10,606 INFO: Started to check the features consistency
+2021-05-15 22:02:10,641 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:02:10,641 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:02:10,642 INFO: Consistency values finished!
+2021-05-15 22:02:10,642 INFO: Consistency values finished!
+2021-05-15 22:02:10,645 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:02:10,645 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:02:10,647 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:02:10,647 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:02:10,648 INFO: None feature were removed because the missing values
+2021-05-15 22:02:10,648 INFO: None feature were removed because the missing values
+2021-05-15 22:02:10,650 INFO: Handle missing values finished!
+2021-05-15 22:02:10,650 INFO: Handle missing values finished!
+2021-05-15 22:02:10,652 INFO: Detect outliers started
+2021-05-15 22:02:10,652 INFO: Detect outliers started
+2021-05-15 22:02:10,654 INFO: Local Outlier Factor method selected
+2021-05-15 22:02:10,654 INFO: Local Outlier Factor method selected
+2021-05-15 22:02:10,677 INFO: Detected 146 outliers
+2021-05-15 22:02:10,677 INFO: Detected 146 outliers
+2021-05-15 22:02:10,678 INFO: Detect outliers finished
+2021-05-15 22:02:10,678 INFO: Detect outliers finished
+2021-05-15 22:02:37,926 INFO: Started to check the features consistency
+2021-05-15 22:02:37,926 INFO: Started to check the features consistency
+2021-05-15 22:02:37,926 INFO: Started to check the features consistency
+2021-05-15 22:02:37,955 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:02:37,955 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:02:37,955 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:02:37,956 INFO: Consistency values finished!
+2021-05-15 22:02:37,956 INFO: Consistency values finished!
+2021-05-15 22:02:37,956 INFO: Consistency values finished!
+2021-05-15 22:02:37,961 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:02:37,961 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:02:37,961 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:02:37,963 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:02:37,963 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:02:37,963 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:02:37,965 INFO: None feature were removed because the missing values
+2021-05-15 22:02:37,965 INFO: None feature were removed because the missing values
+2021-05-15 22:02:37,965 INFO: None feature were removed because the missing values
+2021-05-15 22:02:37,967 INFO: Handle missing values finished!
+2021-05-15 22:02:37,967 INFO: Handle missing values finished!
+2021-05-15 22:02:37,967 INFO: Handle missing values finished!
+2021-05-15 22:02:37,968 INFO: Detect outliers started
+2021-05-15 22:02:37,968 INFO: Detect outliers started
+2021-05-15 22:02:37,968 INFO: Detect outliers started
+2021-05-15 22:02:37,969 INFO: Local Outlier Factor method selected
+2021-05-15 22:02:37,969 INFO: Local Outlier Factor method selected
+2021-05-15 22:02:37,969 INFO: Local Outlier Factor method selected
+2021-05-15 22:02:37,991 INFO: Detected 146 outliers
+2021-05-15 22:02:37,991 INFO: Detected 146 outliers
+2021-05-15 22:02:37,991 INFO: Detected 146 outliers
+2021-05-15 22:02:37,992 INFO: Detect outliers finished
+2021-05-15 22:02:37,992 INFO: Detect outliers finished
+2021-05-15 22:02:37,992 INFO: Detect outliers finished
+2021-05-15 22:03:44,101 INFO: Started to check the features consistency
+2021-05-15 22:03:44,101 INFO: Started to check the features consistency
+2021-05-15 22:03:44,101 INFO: Started to check the features consistency
+2021-05-15 22:03:44,101 INFO: Started to check the features consistency
+2021-05-15 22:03:44,134 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:03:44,134 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:03:44,134 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:03:44,134 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:03:44,136 INFO: Consistency values finished!
+2021-05-15 22:03:44,136 INFO: Consistency values finished!
+2021-05-15 22:03:44,136 INFO: Consistency values finished!
+2021-05-15 22:03:44,136 INFO: Consistency values finished!
+2021-05-15 22:03:44,140 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:03:44,140 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:03:44,140 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:03:44,140 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:03:44,142 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:03:44,142 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:03:44,142 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:03:44,142 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:03:44,143 INFO: None feature were removed because the missing values
+2021-05-15 22:03:44,143 INFO: None feature were removed because the missing values
+2021-05-15 22:03:44,143 INFO: None feature were removed because the missing values
+2021-05-15 22:03:44,143 INFO: None feature were removed because the missing values
+2021-05-15 22:03:44,145 INFO: Handle missing values finished!
+2021-05-15 22:03:44,145 INFO: Handle missing values finished!
+2021-05-15 22:03:44,145 INFO: Handle missing values finished!
+2021-05-15 22:03:44,145 INFO: Handle missing values finished!
+2021-05-15 22:03:44,146 INFO: Detect outliers started
+2021-05-15 22:03:44,146 INFO: Detect outliers started
+2021-05-15 22:03:44,146 INFO: Detect outliers started
+2021-05-15 22:03:44,146 INFO: Detect outliers started
+2021-05-15 22:03:44,148 INFO: Local Outlier Factor method selected
+2021-05-15 22:03:44,148 INFO: Local Outlier Factor method selected
+2021-05-15 22:03:44,148 INFO: Local Outlier Factor method selected
+2021-05-15 22:03:44,148 INFO: Local Outlier Factor method selected
+2021-05-15 22:03:44,173 INFO: Detected 146 outliers
+2021-05-15 22:03:44,173 INFO: Detected 146 outliers
+2021-05-15 22:03:44,173 INFO: Detected 146 outliers
+2021-05-15 22:03:44,173 INFO: Detected 146 outliers
+2021-05-15 22:03:44,175 INFO: Detect outliers finished
+2021-05-15 22:03:44,175 INFO: Detect outliers finished
+2021-05-15 22:03:44,175 INFO: Detect outliers finished
+2021-05-15 22:03:44,175 INFO: Detect outliers finished
+2021-05-15 22:05:15,553 INFO: Started to check the features consistency
+2021-05-15 22:05:15,553 INFO: Started to check the features consistency
+2021-05-15 22:05:15,553 INFO: Started to check the features consistency
+2021-05-15 22:05:15,553 INFO: Started to check the features consistency
+2021-05-15 22:05:15,553 INFO: Started to check the features consistency
+2021-05-15 22:05:15,588 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:05:15,588 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:05:15,588 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:05:15,588 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:05:15,588 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:05:15,589 INFO: Consistency values finished!
+2021-05-15 22:05:15,589 INFO: Consistency values finished!
+2021-05-15 22:05:15,589 INFO: Consistency values finished!
+2021-05-15 22:05:15,589 INFO: Consistency values finished!
+2021-05-15 22:05:15,589 INFO: Consistency values finished!
+2021-05-15 22:05:15,593 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:05:15,593 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:05:15,593 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:05:15,593 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:05:15,593 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:05:15,595 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:05:15,595 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:05:15,595 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:05:15,595 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:05:15,595 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:05:15,597 INFO: None feature were removed because the missing values
+2021-05-15 22:05:15,597 INFO: None feature were removed because the missing values
+2021-05-15 22:05:15,597 INFO: None feature were removed because the missing values
+2021-05-15 22:05:15,597 INFO: None feature were removed because the missing values
+2021-05-15 22:05:15,597 INFO: None feature were removed because the missing values
+2021-05-15 22:05:15,599 INFO: Handle missing values finished!
+2021-05-15 22:05:15,599 INFO: Handle missing values finished!
+2021-05-15 22:05:15,599 INFO: Handle missing values finished!
+2021-05-15 22:05:15,599 INFO: Handle missing values finished!
+2021-05-15 22:05:15,599 INFO: Handle missing values finished!
+2021-05-15 22:05:15,602 INFO: Detect outliers started
+2021-05-15 22:05:15,602 INFO: Detect outliers started
+2021-05-15 22:05:15,602 INFO: Detect outliers started
+2021-05-15 22:05:15,602 INFO: Detect outliers started
+2021-05-15 22:05:15,602 INFO: Detect outliers started
+2021-05-15 22:05:15,602 INFO: Local Outlier Factor method selected
+2021-05-15 22:05:15,602 INFO: Local Outlier Factor method selected
+2021-05-15 22:05:15,602 INFO: Local Outlier Factor method selected
+2021-05-15 22:05:15,602 INFO: Local Outlier Factor method selected
+2021-05-15 22:05:15,602 INFO: Local Outlier Factor method selected
+2021-05-15 22:05:15,620 INFO: Detected 146 outliers
+2021-05-15 22:05:15,620 INFO: Detected 146 outliers
+2021-05-15 22:05:15,620 INFO: Detected 146 outliers
+2021-05-15 22:05:15,620 INFO: Detected 146 outliers
+2021-05-15 22:05:15,620 INFO: Detected 146 outliers
+2021-05-15 22:05:15,622 INFO: Detect outliers finished
+2021-05-15 22:05:15,622 INFO: Detect outliers finished
+2021-05-15 22:05:15,622 INFO: Detect outliers finished
+2021-05-15 22:05:15,622 INFO: Detect outliers finished
+2021-05-15 22:05:15,622 INFO: Detect outliers finished
+2021-05-15 22:06:21,999 INFO: Started to check the features consistency
+2021-05-15 22:06:21,999 INFO: Started to check the features consistency
+2021-05-15 22:06:21,999 INFO: Started to check the features consistency
+2021-05-15 22:06:21,999 INFO: Started to check the features consistency
+2021-05-15 22:06:21,999 INFO: Started to check the features consistency
+2021-05-15 22:06:21,999 INFO: Started to check the features consistency
+2021-05-15 22:06:22,032 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:06:22,032 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:06:22,032 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:06:22,032 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:06:22,032 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:06:22,032 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:06:22,033 INFO: Consistency values finished!
+2021-05-15 22:06:22,033 INFO: Consistency values finished!
+2021-05-15 22:06:22,033 INFO: Consistency values finished!
+2021-05-15 22:06:22,033 INFO: Consistency values finished!
+2021-05-15 22:06:22,033 INFO: Consistency values finished!
+2021-05-15 22:06:22,033 INFO: Consistency values finished!
+2021-05-15 22:06:22,039 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:06:22,039 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:06:22,039 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:06:22,039 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:06:22,039 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:06:22,039 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:06:22,043 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:06:22,043 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:06:22,043 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:06:22,043 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:06:22,043 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:06:22,043 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:06:22,045 INFO: None feature were removed because the missing values
+2021-05-15 22:06:22,045 INFO: None feature were removed because the missing values
+2021-05-15 22:06:22,045 INFO: None feature were removed because the missing values
+2021-05-15 22:06:22,045 INFO: None feature were removed because the missing values
+2021-05-15 22:06:22,045 INFO: None feature were removed because the missing values
+2021-05-15 22:06:22,045 INFO: None feature were removed because the missing values
+2021-05-15 22:06:22,047 INFO: Handle missing values finished!
+2021-05-15 22:06:22,047 INFO: Handle missing values finished!
+2021-05-15 22:06:22,047 INFO: Handle missing values finished!
+2021-05-15 22:06:22,047 INFO: Handle missing values finished!
+2021-05-15 22:06:22,047 INFO: Handle missing values finished!
+2021-05-15 22:06:22,047 INFO: Handle missing values finished!
+2021-05-15 22:06:22,050 INFO: Detect outliers started
+2021-05-15 22:06:22,050 INFO: Detect outliers started
+2021-05-15 22:06:22,050 INFO: Detect outliers started
+2021-05-15 22:06:22,050 INFO: Detect outliers started
+2021-05-15 22:06:22,050 INFO: Detect outliers started
+2021-05-15 22:06:22,050 INFO: Detect outliers started
+2021-05-15 22:06:22,051 INFO: Local Outlier Factor method selected
+2021-05-15 22:06:22,051 INFO: Local Outlier Factor method selected
+2021-05-15 22:06:22,051 INFO: Local Outlier Factor method selected
+2021-05-15 22:06:22,051 INFO: Local Outlier Factor method selected
+2021-05-15 22:06:22,051 INFO: Local Outlier Factor method selected
+2021-05-15 22:06:22,051 INFO: Local Outlier Factor method selected
+2021-05-15 22:06:22,079 INFO: Detected 146 outliers
+2021-05-15 22:06:22,079 INFO: Detected 146 outliers
+2021-05-15 22:06:22,079 INFO: Detected 146 outliers
+2021-05-15 22:06:22,079 INFO: Detected 146 outliers
+2021-05-15 22:06:22,079 INFO: Detected 146 outliers
+2021-05-15 22:06:22,079 INFO: Detected 146 outliers
+2021-05-15 22:06:22,081 INFO: Detect outliers finished
+2021-05-15 22:06:22,081 INFO: Detect outliers finished
+2021-05-15 22:06:22,081 INFO: Detect outliers finished
+2021-05-15 22:06:22,081 INFO: Detect outliers finished
+2021-05-15 22:06:22,081 INFO: Detect outliers finished
+2021-05-15 22:06:22,081 INFO: Detect outliers finished
+2021-05-15 22:08:10,954 INFO: Started to check the features consistency
+2021-05-15 22:08:10,954 INFO: Started to check the features consistency
+2021-05-15 22:08:10,954 INFO: Started to check the features consistency
+2021-05-15 22:08:10,954 INFO: Started to check the features consistency
+2021-05-15 22:08:10,954 INFO: Started to check the features consistency
+2021-05-15 22:08:10,954 INFO: Started to check the features consistency
+2021-05-15 22:08:10,954 INFO: Started to check the features consistency
+2021-05-15 22:08:10,981 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:10,981 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:10,981 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:10,981 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:10,981 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:10,981 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:10,981 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:10,983 INFO: Consistency values finished!
+2021-05-15 22:08:10,983 INFO: Consistency values finished!
+2021-05-15 22:08:10,983 INFO: Consistency values finished!
+2021-05-15 22:08:10,983 INFO: Consistency values finished!
+2021-05-15 22:08:10,983 INFO: Consistency values finished!
+2021-05-15 22:08:10,983 INFO: Consistency values finished!
+2021-05-15 22:08:10,983 INFO: Consistency values finished!
+2021-05-15 22:08:10,990 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:10,990 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:10,990 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:10,990 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:10,990 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:10,990 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:10,990 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:10,993 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:10,993 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:10,993 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:10,993 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:10,993 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:10,993 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:10,993 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:10,995 INFO: None feature were removed because the missing values
+2021-05-15 22:08:10,995 INFO: None feature were removed because the missing values
+2021-05-15 22:08:10,995 INFO: None feature were removed because the missing values
+2021-05-15 22:08:10,995 INFO: None feature were removed because the missing values
+2021-05-15 22:08:10,995 INFO: None feature were removed because the missing values
+2021-05-15 22:08:10,995 INFO: None feature were removed because the missing values
+2021-05-15 22:08:10,995 INFO: None feature were removed because the missing values
+2021-05-15 22:08:10,996 INFO: Handle missing values finished!
+2021-05-15 22:08:10,996 INFO: Handle missing values finished!
+2021-05-15 22:08:10,996 INFO: Handle missing values finished!
+2021-05-15 22:08:10,996 INFO: Handle missing values finished!
+2021-05-15 22:08:10,996 INFO: Handle missing values finished!
+2021-05-15 22:08:10,996 INFO: Handle missing values finished!
+2021-05-15 22:08:10,996 INFO: Handle missing values finished!
+2021-05-15 22:08:10,999 INFO: Detect outliers started
+2021-05-15 22:08:10,999 INFO: Detect outliers started
+2021-05-15 22:08:10,999 INFO: Detect outliers started
+2021-05-15 22:08:10,999 INFO: Detect outliers started
+2021-05-15 22:08:10,999 INFO: Detect outliers started
+2021-05-15 22:08:10,999 INFO: Detect outliers started
+2021-05-15 22:08:10,999 INFO: Detect outliers started
+2021-05-15 22:08:11,000 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:11,000 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:11,000 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:11,000 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:11,000 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:11,000 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:11,000 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:11,027 INFO: Detected 146 outliers
+2021-05-15 22:08:11,027 INFO: Detected 146 outliers
+2021-05-15 22:08:11,027 INFO: Detected 146 outliers
+2021-05-15 22:08:11,027 INFO: Detected 146 outliers
+2021-05-15 22:08:11,027 INFO: Detected 146 outliers
+2021-05-15 22:08:11,027 INFO: Detected 146 outliers
+2021-05-15 22:08:11,027 INFO: Detected 146 outliers
+2021-05-15 22:08:11,029 INFO: Detect outliers finished
+2021-05-15 22:08:11,029 INFO: Detect outliers finished
+2021-05-15 22:08:11,029 INFO: Detect outliers finished
+2021-05-15 22:08:11,029 INFO: Detect outliers finished
+2021-05-15 22:08:11,029 INFO: Detect outliers finished
+2021-05-15 22:08:11,029 INFO: Detect outliers finished
+2021-05-15 22:08:11,029 INFO: Detect outliers finished
+2021-05-15 22:08:40,077 INFO: Started to check the features consistency
+2021-05-15 22:08:40,077 INFO: Started to check the features consistency
+2021-05-15 22:08:40,077 INFO: Started to check the features consistency
+2021-05-15 22:08:40,077 INFO: Started to check the features consistency
+2021-05-15 22:08:40,077 INFO: Started to check the features consistency
+2021-05-15 22:08:40,077 INFO: Started to check the features consistency
+2021-05-15 22:08:40,077 INFO: Started to check the features consistency
+2021-05-15 22:08:40,077 INFO: Started to check the features consistency
+2021-05-15 22:08:40,112 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:40,112 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:40,112 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:40,112 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:40,112 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:40,112 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:40,112 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:40,112 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:08:40,113 INFO: Consistency values finished!
+2021-05-15 22:08:40,113 INFO: Consistency values finished!
+2021-05-15 22:08:40,113 INFO: Consistency values finished!
+2021-05-15 22:08:40,113 INFO: Consistency values finished!
+2021-05-15 22:08:40,113 INFO: Consistency values finished!
+2021-05-15 22:08:40,113 INFO: Consistency values finished!
+2021-05-15 22:08:40,113 INFO: Consistency values finished!
+2021-05-15 22:08:40,113 INFO: Consistency values finished!
+2021-05-15 22:08:40,118 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:40,118 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:40,118 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:40,118 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:40,118 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:40,118 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:40,118 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:40,118 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:08:40,121 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:40,121 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:40,121 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:40,121 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:40,121 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:40,121 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:40,121 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:40,121 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:08:40,123 INFO: None feature were removed because the missing values
+2021-05-15 22:08:40,123 INFO: None feature were removed because the missing values
+2021-05-15 22:08:40,123 INFO: None feature were removed because the missing values
+2021-05-15 22:08:40,123 INFO: None feature were removed because the missing values
+2021-05-15 22:08:40,123 INFO: None feature were removed because the missing values
+2021-05-15 22:08:40,123 INFO: None feature were removed because the missing values
+2021-05-15 22:08:40,123 INFO: None feature were removed because the missing values
+2021-05-15 22:08:40,123 INFO: None feature were removed because the missing values
+2021-05-15 22:08:40,126 INFO: Handle missing values finished!
+2021-05-15 22:08:40,126 INFO: Handle missing values finished!
+2021-05-15 22:08:40,126 INFO: Handle missing values finished!
+2021-05-15 22:08:40,126 INFO: Handle missing values finished!
+2021-05-15 22:08:40,126 INFO: Handle missing values finished!
+2021-05-15 22:08:40,126 INFO: Handle missing values finished!
+2021-05-15 22:08:40,126 INFO: Handle missing values finished!
+2021-05-15 22:08:40,126 INFO: Handle missing values finished!
+2021-05-15 22:08:40,129 INFO: Detect outliers started
+2021-05-15 22:08:40,129 INFO: Detect outliers started
+2021-05-15 22:08:40,129 INFO: Detect outliers started
+2021-05-15 22:08:40,129 INFO: Detect outliers started
+2021-05-15 22:08:40,129 INFO: Detect outliers started
+2021-05-15 22:08:40,129 INFO: Detect outliers started
+2021-05-15 22:08:40,129 INFO: Detect outliers started
+2021-05-15 22:08:40,129 INFO: Detect outliers started
+2021-05-15 22:08:40,130 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:40,130 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:40,130 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:40,130 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:40,130 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:40,130 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:40,130 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:40,130 INFO: Local Outlier Factor method selected
+2021-05-15 22:08:40,153 INFO: Detected 146 outliers
+2021-05-15 22:08:40,153 INFO: Detected 146 outliers
+2021-05-15 22:08:40,153 INFO: Detected 146 outliers
+2021-05-15 22:08:40,153 INFO: Detected 146 outliers
+2021-05-15 22:08:40,153 INFO: Detected 146 outliers
+2021-05-15 22:08:40,153 INFO: Detected 146 outliers
+2021-05-15 22:08:40,153 INFO: Detected 146 outliers
+2021-05-15 22:08:40,153 INFO: Detected 146 outliers
+2021-05-15 22:08:40,154 INFO: Detect outliers finished
+2021-05-15 22:08:40,154 INFO: Detect outliers finished
+2021-05-15 22:08:40,154 INFO: Detect outliers finished
+2021-05-15 22:08:40,154 INFO: Detect outliers finished
+2021-05-15 22:08:40,154 INFO: Detect outliers finished
+2021-05-15 22:08:40,154 INFO: Detect outliers finished
+2021-05-15 22:08:40,154 INFO: Detect outliers finished
+2021-05-15 22:08:40,154 INFO: Detect outliers finished
+2021-05-15 22:40:40,840 INFO: Started to check the features consistency
+2021-05-15 22:40:40,873 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:40:40,876 INFO: Consistency values finished!
+2021-05-15 22:40:40,883 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:40:40,886 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:40:40,887 INFO: None feature were removed because the missing values
+2021-05-15 22:40:40,888 INFO: Handle missing values finished!
+2021-05-15 22:40:40,889 INFO: Detect outliers started
+2021-05-15 22:40:40,890 INFO: Local Outlier Factor method selected
+2021-05-15 22:40:40,916 INFO: Detected 146 outliers
+2021-05-15 22:40:40,916 INFO: Detect outliers finished
+2021-05-15 22:41:27,179 INFO: Started to check the features consistency
+2021-05-15 22:41:27,179 INFO: Started to check the features consistency
+2021-05-15 22:41:27,211 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:41:27,211 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:41:27,212 INFO: Consistency values finished!
+2021-05-15 22:41:27,212 INFO: Consistency values finished!
+2021-05-15 22:41:27,217 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:41:27,217 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:41:27,220 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:41:27,220 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:41:27,221 INFO: None feature were removed because the missing values
+2021-05-15 22:41:27,221 INFO: None feature were removed because the missing values
+2021-05-15 22:41:27,223 INFO: Handle missing values finished!
+2021-05-15 22:41:27,223 INFO: Handle missing values finished!
+2021-05-15 22:41:27,225 INFO: Detect outliers started
+2021-05-15 22:41:27,225 INFO: Detect outliers started
+2021-05-15 22:41:27,225 INFO: Local Outlier Factor method selected
+2021-05-15 22:41:27,225 INFO: Local Outlier Factor method selected
+2021-05-15 22:41:27,252 INFO: Detected 146 outliers
+2021-05-15 22:41:27,252 INFO: Detected 146 outliers
+2021-05-15 22:41:27,253 INFO: Detect outliers finished
+2021-05-15 22:41:27,253 INFO: Detect outliers finished
+2021-05-15 22:42:20,765 INFO: Started to check the features consistency
+2021-05-15 22:42:20,765 INFO: Started to check the features consistency
+2021-05-15 22:42:20,765 INFO: Started to check the features consistency
+2021-05-15 22:42:20,791 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:42:20,791 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:42:20,791 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:42:20,792 INFO: Consistency values finished!
+2021-05-15 22:42:20,792 INFO: Consistency values finished!
+2021-05-15 22:42:20,792 INFO: Consistency values finished!
+2021-05-15 22:42:20,799 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:42:20,799 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:42:20,799 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:42:20,802 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:42:20,802 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:42:20,802 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:42:20,802 INFO: None feature were removed because the missing values
+2021-05-15 22:42:20,802 INFO: None feature were removed because the missing values
+2021-05-15 22:42:20,802 INFO: None feature were removed because the missing values
+2021-05-15 22:42:20,803 INFO: Handle missing values finished!
+2021-05-15 22:42:20,803 INFO: Handle missing values finished!
+2021-05-15 22:42:20,803 INFO: Handle missing values finished!
+2021-05-15 22:42:20,805 INFO: Detect outliers started
+2021-05-15 22:42:20,805 INFO: Detect outliers started
+2021-05-15 22:42:20,805 INFO: Detect outliers started
+2021-05-15 22:42:20,806 INFO: Local Outlier Factor method selected
+2021-05-15 22:42:20,806 INFO: Local Outlier Factor method selected
+2021-05-15 22:42:20,806 INFO: Local Outlier Factor method selected
+2021-05-15 22:42:20,829 INFO: Detected 146 outliers
+2021-05-15 22:42:20,829 INFO: Detected 146 outliers
+2021-05-15 22:42:20,829 INFO: Detected 146 outliers
+2021-05-15 22:42:20,830 INFO: Detect outliers finished
+2021-05-15 22:42:20,830 INFO: Detect outliers finished
+2021-05-15 22:42:20,830 INFO: Detect outliers finished
+2021-05-15 22:43:27,460 INFO: Started to check the features consistency
+2021-05-15 22:43:27,460 INFO: Started to check the features consistency
+2021-05-15 22:43:27,460 INFO: Started to check the features consistency
+2021-05-15 22:43:27,460 INFO: Started to check the features consistency
+2021-05-15 22:43:27,493 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:43:27,493 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:43:27,493 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:43:27,493 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:43:27,494 INFO: Consistency values finished!
+2021-05-15 22:43:27,494 INFO: Consistency values finished!
+2021-05-15 22:43:27,494 INFO: Consistency values finished!
+2021-05-15 22:43:27,494 INFO: Consistency values finished!
+2021-05-15 22:43:27,500 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:43:27,500 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:43:27,500 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:43:27,500 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:43:27,503 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:43:27,503 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:43:27,503 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:43:27,503 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:43:27,505 INFO: None feature were removed because the missing values
+2021-05-15 22:43:27,505 INFO: None feature were removed because the missing values
+2021-05-15 22:43:27,505 INFO: None feature were removed because the missing values
+2021-05-15 22:43:27,505 INFO: None feature were removed because the missing values
+2021-05-15 22:43:27,506 INFO: Handle missing values finished!
+2021-05-15 22:43:27,506 INFO: Handle missing values finished!
+2021-05-15 22:43:27,506 INFO: Handle missing values finished!
+2021-05-15 22:43:27,506 INFO: Handle missing values finished!
+2021-05-15 22:43:27,507 INFO: Detect outliers started
+2021-05-15 22:43:27,507 INFO: Detect outliers started
+2021-05-15 22:43:27,507 INFO: Detect outliers started
+2021-05-15 22:43:27,507 INFO: Detect outliers started
+2021-05-15 22:43:27,509 INFO: Local Outlier Factor method selected
+2021-05-15 22:43:27,509 INFO: Local Outlier Factor method selected
+2021-05-15 22:43:27,509 INFO: Local Outlier Factor method selected
+2021-05-15 22:43:27,509 INFO: Local Outlier Factor method selected
+2021-05-15 22:43:27,534 INFO: Detected 146 outliers
+2021-05-15 22:43:27,534 INFO: Detected 146 outliers
+2021-05-15 22:43:27,534 INFO: Detected 146 outliers
+2021-05-15 22:43:27,534 INFO: Detected 146 outliers
+2021-05-15 22:43:27,536 INFO: Detect outliers finished
+2021-05-15 22:43:27,536 INFO: Detect outliers finished
+2021-05-15 22:43:27,536 INFO: Detect outliers finished
+2021-05-15 22:43:27,536 INFO: Detect outliers finished
+2021-05-15 22:52:19,022 INFO: Started to check the features consistency
+2021-05-15 22:52:19,051 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:52:19,052 INFO: Consistency values finished!
+2021-05-15 22:52:19,058 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:52:19,061 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:52:19,063 INFO: None feature were removed because the missing values
+2021-05-15 22:52:19,064 INFO: Handle missing values finished!
+2021-05-15 22:52:19,065 INFO: Detect outliers started
+2021-05-15 22:52:19,066 INFO: Local Outlier Factor method selected
+2021-05-15 22:52:19,093 INFO: Detected 146 outliers
+2021-05-15 22:52:19,094 INFO: Detect outliers finished
+2021-05-15 22:52:57,394 INFO: Started to check the features consistency
+2021-05-15 22:52:57,426 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:52:57,427 INFO: Consistency values finished!
+2021-05-15 22:52:57,432 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:52:57,434 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:52:57,435 INFO: None feature were removed because the missing values
+2021-05-15 22:52:57,435 INFO: Handle missing values finished!
+2021-05-15 22:52:57,437 INFO: Detect outliers started
+2021-05-15 22:52:57,438 INFO: Local Outlier Factor method selected
+2021-05-15 22:52:57,462 INFO: Detected 146 outliers
+2021-05-15 22:52:57,464 INFO: Detect outliers finished
+2021-05-15 22:54:29,988 INFO: Started to check the features consistency
+2021-05-15 22:54:30,035 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 22:54:30,036 INFO: Consistency values finished!
+2021-05-15 22:54:30,040 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 22:54:30,042 INFO: Feature Embarked was imputer with "other"
+2021-05-15 22:54:30,043 INFO: None feature were removed because the missing values
+2021-05-15 22:54:30,045 INFO: Handle missing values finished!
+2021-05-15 22:54:30,047 INFO: Detect outliers started
+2021-05-15 22:54:30,048 INFO: Local Outlier Factor method selected
+2021-05-15 22:54:30,078 INFO: Detected 146 outliers
+2021-05-15 22:54:30,080 INFO: Detect outliers finished
+2021-05-15 23:22:24,825 INFO: Started to check the features consistency
+2021-05-15 23:22:24,871 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 23:22:24,872 INFO: Consistency values finished!
+2021-05-15 23:22:24,880 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 23:22:24,884 INFO: Feature Embarked was imputer with "other"
+2021-05-15 23:22:24,887 INFO: None feature were removed because the missing values
+2021-05-15 23:22:24,888 INFO: Handle missing values finished!
+2021-05-15 23:22:24,892 INFO: Detect outliers started
+2021-05-15 23:22:24,893 INFO: Local Outlier Factor method selected
+2021-05-15 23:22:24,925 INFO: Detected 146 outliers
+2021-05-15 23:22:24,926 INFO: Detect outliers finished
+2021-05-15 23:23:09,853 INFO: Started to check the features consistency
+2021-05-15 23:23:09,853 INFO: Started to check the features consistency
+2021-05-15 23:23:09,889 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 23:23:09,889 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 23:23:09,890 INFO: Consistency values finished!
+2021-05-15 23:23:09,890 INFO: Consistency values finished!
+2021-05-15 23:23:09,898 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 23:23:09,898 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 23:23:09,902 INFO: Feature Embarked was imputer with "other"
+2021-05-15 23:23:09,902 INFO: Feature Embarked was imputer with "other"
+2021-05-15 23:23:09,904 INFO: None feature were removed because the missing values
+2021-05-15 23:23:09,904 INFO: None feature were removed because the missing values
+2021-05-15 23:23:09,906 INFO: Handle missing values finished!
+2021-05-15 23:23:09,906 INFO: Handle missing values finished!
+2021-05-15 23:23:09,908 INFO: Detect outliers started
+2021-05-15 23:23:09,908 INFO: Detect outliers started
+2021-05-15 23:23:09,910 INFO: Local Outlier Factor method selected
+2021-05-15 23:23:09,910 INFO: Local Outlier Factor method selected
+2021-05-15 23:23:09,938 INFO: Detected 146 outliers
+2021-05-15 23:23:09,938 INFO: Detected 146 outliers
+2021-05-15 23:23:09,940 INFO: Detect outliers finished
+2021-05-15 23:23:09,940 INFO: Detect outliers finished
+2021-05-15 23:23:36,141 INFO: Started to check the features consistency
+2021-05-15 23:23:36,141 INFO: Started to check the features consistency
+2021-05-15 23:23:36,141 INFO: Started to check the features consistency
+2021-05-15 23:23:36,183 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 23:23:36,183 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 23:23:36,183 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-15 23:23:36,185 INFO: Consistency values finished!
+2021-05-15 23:23:36,185 INFO: Consistency values finished!
+2021-05-15 23:23:36,185 INFO: Consistency values finished!
+2021-05-15 23:23:36,189 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 23:23:36,189 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 23:23:36,189 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-15 23:23:36,192 INFO: Feature Embarked was imputer with "other"
+2021-05-15 23:23:36,192 INFO: Feature Embarked was imputer with "other"
+2021-05-15 23:23:36,192 INFO: Feature Embarked was imputer with "other"
+2021-05-15 23:23:36,193 INFO: None feature were removed because the missing values
+2021-05-15 23:23:36,193 INFO: None feature were removed because the missing values
+2021-05-15 23:23:36,193 INFO: None feature were removed because the missing values
+2021-05-15 23:23:36,194 INFO: Handle missing values finished!
+2021-05-15 23:23:36,194 INFO: Handle missing values finished!
+2021-05-15 23:23:36,194 INFO: Handle missing values finished!
+2021-05-15 23:23:36,197 INFO: Detect outliers started
+2021-05-15 23:23:36,197 INFO: Detect outliers started
+2021-05-15 23:23:36,197 INFO: Detect outliers started
+2021-05-15 23:23:36,200 INFO: Local Outlier Factor method selected
+2021-05-15 23:23:36,200 INFO: Local Outlier Factor method selected
+2021-05-15 23:23:36,200 INFO: Local Outlier Factor method selected
+2021-05-15 23:23:36,228 INFO: Detected 146 outliers
+2021-05-15 23:23:36,228 INFO: Detected 146 outliers
+2021-05-15 23:23:36,228 INFO: Detected 146 outliers
+2021-05-15 23:23:36,230 INFO: Detect outliers finished
+2021-05-15 23:23:36,230 INFO: Detect outliers finished
+2021-05-15 23:23:36,230 INFO: Detect outliers finished
