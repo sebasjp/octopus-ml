@@ -12,7 +12,7 @@ class octopus_process:
                 ):
 
         self.outliers_method = outliers_method
-        self.alpha         = alpha_sta
+        self.alpha           = alpha_sta
         
         self.html = """<html><head>"""
         self.html += """<link rel = "stylesheet" href = "style.css"/>"""
