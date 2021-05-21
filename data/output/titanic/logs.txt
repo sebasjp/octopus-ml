@@ -295,3 +295,14 @@
 2021-05-19 22:53:11,343 INFO: Local Outlier Factor method selected
 2021-05-19 22:53:11,372 INFO: Detected 146 outliers
 2021-05-19 22:53:11,374 INFO: Detect outliers finished
+2021-05-20 22:35:34,228 INFO: Started to check the features consistency
+2021-05-20 22:35:34,260 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-20 22:35:34,261 INFO: Consistency values finished!
+2021-05-20 22:35:34,266 INFO: Feature Age was imputer with the method median value = 28.0
+2021-05-20 22:35:34,267 INFO: Feature Embarked was imputer with "other"
+2021-05-20 22:35:34,268 INFO: None feature were removed because the missing values
+2021-05-20 22:35:34,269 INFO: Handle missing values finished!
+2021-05-20 22:35:34,270 INFO: Detect outliers started
+2021-05-20 22:35:34,271 INFO: Local Outlier Factor method selected
+2021-05-20 22:35:34,302 INFO: Detected 146 outliers
+2021-05-20 22:35:34,303 INFO: Detect outliers finished

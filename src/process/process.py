@@ -5,12 +5,33 @@ from process.outlier_detection import detect_outliers
 from process.statistical_analysis import statistical_analysis
 
 class octopus_process:
+    """
+    A class to process the data. It has implemented two methods: run and renderize_html. The first one preprocess data, detect outliers and does the statistical analysis. The second one renderize the html file with information given by the method before.
+    
+    ...    
+    
+    Attributes
+    ----------
+    method_missing_quanti: str
+        Method to deal with the missing values in the quantitative features. Imputation with "mean" and "median" are supported.
+    outliers_method: str
+        Method name of outliers detection to use. It can be "adjbox" to use adjusted boxplot; "lof" to use Local Outlier Factor or "isolation_forest" to use Isolation Forest method.
+    alpha : float
+        Significance value to evaluate the hyphotesis in the statistical analysis.
+    
+    
+    Methods
+    -------
+    run
+       Executes the preprocessing of data, detect outliers and does the statistical analysis. 
+    """
     
     def __init__(self,
+                 method_missing_quanti,
                  outliers_method,
                  alpha_sta,
                 ):
-
+        self.method_missing_quanti = method_missing_quanti
         self.outliers_method = outliers_method
         self.alpha           = alpha_sta
         
@@ -31,7 +52,30 @@ class octopus_process:
             y_name,
             features_type,
             path_output):
+        """
+        This function executes the preprocessing of data, detect outliers and does the statistical analysis.
         
+        Parameters
+        ----------
+        data : pd.DataFrame
+            Pandas DataFrame to use. This one contains both X features and y variable.
+        y_name : str
+            Name of variable of interest contained in data.
+        features_type : dict[str : list[str]]
+            Dictionary that contains two keys: qualitatives and quantitatives. The values
+            are the list of features names respectively.
+        path_output: str
+            Path where the logs and report.html will be saved.
+        
+        Return
+        ------
+        X : pd.DataFrame
+            Data clean
+        y : pd.Series
+            Variable of interest
+        features_type : dict[str : list[str]]
+            Features type updated         
+        """
         self.path_html = os.path.join(path_output, 'report.html')
         logger = log(path_output, 'logs.txt')
         
@@ -39,6 +83,7 @@ class octopus_process:
         preprocess = preprocess_data(data           = data,
                                      y_name         = y_name,
                                      features_type  = features_type,
+                                     method_missing_quanti = self.method_missing_quanti,
                                      html           = self.html,
                                      logger         = logger)
 

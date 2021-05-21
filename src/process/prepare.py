@@ -5,8 +5,7 @@ from sklearn.preprocessing import RobustScaler
 
 class octopus_prepare:
     """
-    A class to perform the data preparation. It has implemented three methods,
-    two of them for split and transform data and one method that consolidate all.
+    A class to perform the data preparation. It has implemented three methods, two of them for split and transform data and one method that consolidate all.
     
     ...
     
@@ -14,20 +13,16 @@ class octopus_prepare:
     Attributes
     ----------
     seed : float
-        Seed to be used in train and test split. Controls the shuffling applied 
-        to the data before applying the split.
+        Seed to be used in train and test split. Controls the shuffling applied to the data before applying the split.
     method_scale : str
-        Method to be used to transform or scale the data. Two methods are implemented
-        "standard" for StandardScaler and "robust" for RobustScaler
+        Method to be used to transform or scale the data. Two methods are implemented "standard" for StandardScaler and "robust" for RobustScaler
     
     Methods
     -------
     split_data(X, y, features_type)
-        Split the data in train and test sets, but before, it performs one hot encoding 
-        for categorical features.
+        Split the data in train and test sets, but before, it performs one hot encoding for categorical features.
     scale_data(X_train, X_test, features_type)
-        Transform the data in order with the method specified. 
-        Two methods are supported StandardScaler and RobustScaler.
+        Transform the data in order with the method specified. Two methods are supported StandardScaler and RobustScaler.
     run(X, y, features_type)
         Runs the split and scale data functions.
     """
@@ -39,8 +34,7 @@ class octopus_prepare:
         
     def split_data(self, X, y, features_type):
         """
-        This function splits the data in train and test sets, but before, it performs
-        one hot encoding for categorical features
+        This function splits the data in train and test sets, but before, it performs one hot encoding for categorical features
         
         Parameters
         ----------
@@ -49,8 +43,7 @@ class octopus_prepare:
         y : pd.Series
             Variable of interest
         features_type : dict[str : list[str]]
-            Dictionary that contains two keys: qualitatives and quantitatives. The values
-            are the list of features names respectively.
+            Dictionary that contains two keys: qualitatives and quantitatives. The values are the list of features names respectively.
             
         
         Return
@@ -115,11 +108,9 @@ class octopus_prepare:
         """
         This function runs the split and scale data functions.
         
-        split_data: split the data in train and test sets, but before, it performs
-        one hot encoding for categorical features.
+        split_data: split the data in train and test sets, but before, it performs one hot encoding for categorical features.
         
-        scale_data: transform the data in order with the method specified.
-        Two methods are supported (standard) StandardScaler and (robust) RobustScaler
+        scale_data: transform the data in order with the method specified. Two methods are supported (standard) StandardScaler and (robust) RobustScaler
         """
         X_train, X_test, y_train, y_test = self.split_data(X = X,
                                                            y = y,

@@ -33,6 +33,7 @@ class preprocess_data:
         This method check the consistency of the features
     handle_missing_values
         This method handles the missing values based on the method specified
+        mean and median are supported
     run
         Run all methods consolidated and return the clean data and features type updated
     """
@@ -41,6 +42,7 @@ class preprocess_data:
                  data,
                  y_name,
                  features_type,
+                 method_missing_quanti,
                  html,
                  logger
                  ):
@@ -48,6 +50,7 @@ class preprocess_data:
         self.X             = data.drop(columns = y_name).copy()
         self.features_type = features_type.copy()
         self.y             = data[y_name]
+        self.method_missing_quanti = method_missing_quanti
         
         self.html   = html
         self.logger = logger
@@ -59,12 +62,6 @@ class preprocess_data:
         or a high proportion of records in one category. Regarding the 
         quantitative variables, It just check if there is any value with 
         a high proportion of records. These features will be removed.
-
-        Return
-        ------
-            + DataFrame without the inconsistent features
-            + Dictionary that contains the new list of features qualitatives and quantitatives
-            + HTML object with useful informaction
         """
         features_type = self.features_type
         df = self.X.copy()
@@ -185,18 +182,12 @@ class preprocess_data:
 
     # ============================================================================= #
     
-    def handle_missing_values(self, method_quanti = 'median'):
+    def handle_missing_values(self):
         """
         This function handles the missing values based on the method specified
         for quantitatives features. In qualitative features the will be filled
         with the word 'other'. This apply for features with less than 20% of 
         missing values, otherwise the feature will be removed.
-
-
-        Return
-        ------
-            + DataFrame without missing values
-            + HTML object with useful information
         """
         features_type = self.features_type
         df = self.X.copy()    
@@ -214,7 +205,7 @@ class preprocess_data:
         imputer_methods = {'median': np.median,
                            'mean'  : np.mean}
         # Imputer method specified
-        imputer = imputer_methods[method_quanti]
+        imputer = imputer_methods[self.method_missing_quanti]
 
         for x in features_type['quantitative']:
 
@@ -226,7 +217,7 @@ class preprocess_data:
                 val_imputer = imputer(df[x].dropna())
                 df[x] = df[x].fillna(val_imputer)
                 
-                str_ = 'Feature ' + x + ' was imputer with the method ' + method_quanti + \
+                str_ = 'Feature ' + x + ' was imputer with the method ' + self.method_missing_quanti + \
                         ' value = ' + str(val_imputer)
                 self.logger.info(str_)
                 self.html += str_ + '<br>'
