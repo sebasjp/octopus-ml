@@ -5,8 +5,9 @@ import seaborn as sns
 from bran import BootstrapCI
 from scipy.stats import chi2_contingency
 import os
+from utils import log
 
-class statistical_analysis:
+class StatsAnalysis:
     """
     A class to perform the statistical analysis. It has implemented three methods,
     two of them for features analysis and one method that consolidate all.
@@ -15,15 +16,6 @@ class statistical_analysis:
     
     Attributes
     ----------
-    X : pd.DataFrame
-        Pandas DataFrame to use. This one contains just X features
-    y : pd.Series
-        Variable of interest
-    y_name : str
-        Name of variable of interest contained in data.
-    features_type : dict[str : list[str]]
-        Dictionary that contains two keys: qualitatives and quantitatives. The values
-        are the list of features names respectively.
     alpha : float
         Significance value to evaluate the hyphotesis
     html : str
@@ -44,45 +36,53 @@ class statistical_analysis:
     run
         Run all methods consolidated and return a HTML code with the plots
     """
-    def __init__(self, 
-                 X,
-                 y,
-                 y_name,
-                 features_type,
+    def __init__(self,
                  alpha,
                  html,
                  path_output,
                  logger
                  ):
         
-        self.X      = X
-        self.y      = y
-        self.y_name = y_name
-        self.features_type = features_type
         self.alpha  = alpha
         self.html   = html
+        self.logger =  logger
         self.path_output = path_output
     
-    def quantitative_analysis(self):
+    def quantitative_analysis(self, X_train, y_train, y_name, features_type):
         """
-        This function performs the analysis for quantitative features. It builds boxplots
-        and computes the bootstrap confidence intervals
+        This function performs the analysis for quantitative features. It builds boxplots and computes the bootstrap confidence intervals
+        
+        Parameters
+        ----------
+        X_train : pd.DataFrame
+            Pandas DataFrame to use. This one contains just X features
+        y_train : pd.Series
+            Variable of interest
+        y_name : str
+            Name of variable of interest contained in data.
+        features_type : dict[str : list[str]]
+            Dictionary that contains two keys: qualitatives and quantitatives. The values are the list of features names respectively.
+            
+        Return
+        ------
+        None
         """
-        df = pd.concat([self.X, self.y], axis = 1)
+        df = pd.concat([X_train, y_train], axis = 1)
         
         # To compute confidence intervals by classes for all features
-        classes = self.y.unique()
+        classes = y_train.unique()
         nclass  = len(classes)
         alpha_corrected = self.alpha / nclass
 
         results = []
         
-        for var_x in self.features_type['quantitative']:
+        for var_x in features_type['quantitative']:
             for classk in classes:        
 
                 bootstrap = BootstrapCI(alpha = alpha_corrected)
 
-                x = self.X.loc[self.y == classk, var_x]
+                x = X_train.loc[y_train == classk, var_x]
+                x = x[~np.isnan(x)]
                 li, ls = bootstrap.calculate_ci(x)
                 m = x.mean()
 
@@ -99,21 +99,21 @@ class statistical_analysis:
             os.mkdir(path_images)
         
         # Build and save plots
-        for var_x in self.features_type['quantitative']:
+        for var_x in features_type['quantitative']:
 
             # distribution plots
-            g = sns.boxplot(x = self.y_name, y = var_x, data = df)
+            g = sns.boxplot(x = y_name, y = var_x, data = df)
             #g = sns.kdeplot(x = var_x, hue = self.y_name, data = df)
             g.set_title(var_x + ' Distribution by class')
 
             # save fig
             gfigure = g.get_figure()
-            namefig1 = 'dist_' + var_x + '_vs_' + self.y_name + '.png'
+            namefig1 = 'dist_' + var_x + '_vs_' + y_name + '.png'
             gfigure.savefig(path_images + namefig1)
             plt.clf()
             
             # confidence intervals plots
-            res_x = results.loc[results['variable'] == var_x ]
+            res_x = results.loc[results['variable'] == var_x]
             # lower and upper limits
             dy = np.array([res_x['errli'].tolist(), res_x['errls'].tolist()])
 
@@ -125,7 +125,7 @@ class statistical_analysis:
             plt.title('Confidence intervals at ' + str(int((1 - self.alpha) * 100)) + '%')
 
             # save fig
-            namefig2 = 'ci_' + var_x + '_vs_' + self.y_name + '.png'
+            namefig2 = 'ci_' + var_x + '_vs_' + y_name + '.png'
             plt.savefig(path_images + namefig2)
             plt.clf()
             
@@ -135,7 +135,7 @@ class statistical_analysis:
             
             self.html += str_1 + str_2
         
-        hm = sns.heatmap(self.X[self.features_type['quantitative']].corr(),
+        hm = sns.heatmap(X_train[features_type['quantitative']].corr(),
                          vmin = -1,
                          vmax = 1,
                          annot = True)
@@ -155,21 +155,35 @@ class statistical_analysis:
         
         return None
     
-    def qualitative_analysis(self):
+    def qualitative_analysis(self, X_train, y_train, y_name, features_type):
         """
-        This function performs the analysis for qualitative features. It builds countplots
-        and performs the hyphotesis test based on chi-square test
+        This function performs the analysis for qualitative features. It builds countplots and performs the hyphotesis test based on chi-square test
+        
+        Parameters
+        ----------
+        X_train : pd.DataFrame
+            Pandas DataFrame to use. This one contains just X features
+        y_train : pd.Series
+            Variable of interest
+        y_name : str
+            Name of variable of interest contained in data.
+        features_type : dict[str : list[str]]
+            Dictionary that contains two keys: qualitatives and quantitatives. The values are the list of features names respectively.
+            
+        Return
+        ------
+        None
         """
         
-        df = pd.concat([self.X, self.y], axis = 1)
+        df = pd.concat([X_train, y_train], axis = 1)
         
         # Build and save plots
         path_images = self.path_output + 'images/'
         
-        for var_x in self.features_type['qualitative']:
+        for var_x in features_type['qualitative']:
 
             # test hyphotesis chi-square
-            table = pd.crosstab(self.X[var_x], self.y).values
+            table = pd.crosstab(X_train[var_x], y_train).values
             stat, pvalue, dof, expected = chi2_contingency(table)            
             if pvalue <= self.alpha:
                 conclusion = "There is significant difference at "
@@ -179,35 +193,56 @@ class statistical_analysis:
             conclusion += str(int((1 - self.alpha) * 100)) + '% confidence'
             
             # distribution plots
-            g = sns.countplot(x = self.y_name, hue = var_x, data = df)
+            g = sns.countplot(x = y_name, hue = var_x, data = df)
             title = var_x + ' Distribution by class\n' + conclusion
             g.set_title(title)
 
             # save fig
             gfigure = g.get_figure()
-            namefig1 = 'dist_' + var_x + '_vs_' + self.y_name + '.png'
+            namefig1 = 'dist_' + var_x + '_vs_' + y_name + '.png'
             gfigure.savefig(path_images + namefig1)
             plt.clf()
             
             str_1 = """<div style="width:600px; margin:0 auto;"><img src = "images/{}"></div>""".format(namefig1)
             self.html += str_1 + "<br>"
         
-    def run(self):
+        return None
+        
+    def stats_analysis(self, X_train, y_train, y_name, features_type):
         """
         This function run two methos:
         1. quantitative_analysis:
-            performs the analysis for quantitative features. It builds boxplots and
-            computes the bootstrap confidence intervals
+            performs the analysis for quantitative features. It builds boxplots and computes the bootstrap confidence intervals
         2. qualitative_analysis:
-            performs the analysis for qualitative features. It builds countplots and
-            performs the hyphotesis test based on chi-square test
+            performs the analysis for qualitative features. It builds countplots and performs the hyphotesis test based on chi-square test
+        
+        Parameters
+        ----------
+        X_train : pd.DataFrame
+            Pandas DataFrame to use. This one contains just X features
+        y_train : pd.Series
+            Variable of interest
+        y_name : str
+            Name of variable of interest contained in data.
+        features_type : dict[str : list[str]]
+            Dictionary that contains two keys: qualitatives and quantitatives. The values are the list of features names respectively.
             
         Return
         ------
         html : str
             html code with all plots
         """
-        self.quantitative_analysis()
-        self.qualitative_analysis()
+        
+        if not self.html:
+            self.html = """<html><head>"""
+            self.html += """</head><body><h1><center>Processing Report</center></h1>"""
+        
+        if not self.logger:
+            self.logger = log(self.path_output, 'logs.txt')
+        
+        self.html += "<h2><center>Statistical Analysis:</center></h2>"
+        
+        self.quantitative_analysis(X_train, y_train, y_name, features_type)
+        self.qualitative_analysis(X_train, y_train, y_name, features_type)
         
         return self.html

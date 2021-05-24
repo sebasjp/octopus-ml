@@ -306,3 +306,153 @@
 2021-05-20 22:35:34,271 INFO: Local Outlier Factor method selected
 2021-05-20 22:35:34,302 INFO: Detected 146 outliers
 2021-05-20 22:35:34,303 INFO: Detect outliers finished
+2021-05-23 16:23:34,708 INFO: Started to check the features consistency
+2021-05-23 16:23:34,708 INFO: Started to check the features consistency
+2021-05-23 16:23:34,708 INFO: Started to check the features consistency
+2021-05-23 16:23:34,748 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 16:23:34,748 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 16:23:34,748 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 16:23:34,750 INFO: Consistency values finished!
+2021-05-23 16:23:34,750 INFO: Consistency values finished!
+2021-05-23 16:23:34,750 INFO: Consistency values finished!
+2021-05-23 16:23:34,760 INFO: Feature Embarked was imputer with "other"
+2021-05-23 16:23:34,760 INFO: Feature Embarked was imputer with "other"
+2021-05-23 16:23:34,760 INFO: Feature Embarked was imputer with "other"
+2021-05-23 16:23:34,762 INFO: None feature were removed because the missing values
+2021-05-23 16:23:34,762 INFO: None feature were removed because the missing values
+2021-05-23 16:23:34,762 INFO: None feature were removed because the missing values
+2021-05-23 16:23:34,763 INFO: Check the missing values finished!
+2021-05-23 16:23:34,763 INFO: Check the missing values finished!
+2021-05-23 16:23:34,763 INFO: Check the missing values finished!
+2021-05-23 16:23:34,766 INFO: Detect outliers started
+2021-05-23 16:23:34,766 INFO: Detect outliers started
+2021-05-23 16:23:34,766 INFO: Detect outliers started
+2021-05-23 16:23:34,767 INFO: Local Outlier Factor method selected
+2021-05-23 16:23:34,767 INFO: Local Outlier Factor method selected
+2021-05-23 16:23:34,767 INFO: Local Outlier Factor method selected
+2021-05-23 16:23:34,815 INFO: Detected 80 outliers
+2021-05-23 16:23:34,815 INFO: Detected 80 outliers
+2021-05-23 16:23:34,815 INFO: Detected 80 outliers
+2021-05-23 16:23:34,816 INFO: Detect outliers finished
+2021-05-23 16:23:34,816 INFO: Detect outliers finished
+2021-05-23 16:23:34,816 INFO: Detect outliers finished
+2021-05-23 16:47:11,276 INFO: Started to check the features consistency
+2021-05-23 16:47:11,276 INFO: Started to check the features consistency
+2021-05-23 16:47:11,276 INFO: Started to check the features consistency
+2021-05-23 16:47:11,276 INFO: Started to check the features consistency
+2021-05-23 16:47:11,324 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 16:47:11,324 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 16:47:11,324 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 16:47:11,324 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 16:47:11,326 INFO: Consistency values finished!
+2021-05-23 16:47:11,326 INFO: Consistency values finished!
+2021-05-23 16:47:11,326 INFO: Consistency values finished!
+2021-05-23 16:47:11,326 INFO: Consistency values finished!
+2021-05-23 16:47:11,336 INFO: Feature Embarked was imputer with "other"
+2021-05-23 16:47:11,336 INFO: Feature Embarked was imputer with "other"
+2021-05-23 16:47:11,336 INFO: Feature Embarked was imputer with "other"
+2021-05-23 16:47:11,336 INFO: Feature Embarked was imputer with "other"
+2021-05-23 16:47:11,338 INFO: None feature were removed because the missing values
+2021-05-23 16:47:11,338 INFO: None feature were removed because the missing values
+2021-05-23 16:47:11,338 INFO: None feature were removed because the missing values
+2021-05-23 16:47:11,338 INFO: None feature were removed because the missing values
+2021-05-23 16:47:11,340 INFO: Check the missing values finished!
+2021-05-23 16:47:11,340 INFO: Check the missing values finished!
+2021-05-23 16:47:11,340 INFO: Check the missing values finished!
+2021-05-23 16:47:11,340 INFO: Check the missing values finished!
+2021-05-23 16:47:11,342 INFO: Detect outliers started
+2021-05-23 16:47:11,342 INFO: Detect outliers started
+2021-05-23 16:47:11,342 INFO: Detect outliers started
+2021-05-23 16:47:11,342 INFO: Detect outliers started
+2021-05-23 16:47:11,344 INFO: Local Outlier Factor method selected
+2021-05-23 16:47:11,344 INFO: Local Outlier Factor method selected
+2021-05-23 16:47:11,344 INFO: Local Outlier Factor method selected
+2021-05-23 16:47:11,344 INFO: Local Outlier Factor method selected
+2021-05-23 16:47:11,384 INFO: Detected 80 outliers
+2021-05-23 16:47:11,384 INFO: Detected 80 outliers
+2021-05-23 16:47:11,384 INFO: Detected 80 outliers
+2021-05-23 16:47:11,384 INFO: Detected 80 outliers
+2021-05-23 16:47:11,387 INFO: Detect outliers finished
+2021-05-23 16:47:11,387 INFO: Detect outliers finished
+2021-05-23 16:47:11,387 INFO: Detect outliers finished
+2021-05-23 16:47:11,387 INFO: Detect outliers finished
+2021-05-23 17:32:17,765 INFO: Started to check the features consistency
+2021-05-23 17:32:17,812 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 17:32:17,813 INFO: Consistency values finished!
+2021-05-23 17:32:17,820 INFO: Feature Embarked was imputer with "other"
+2021-05-23 17:32:17,822 INFO: None feature were removed because the missing values
+2021-05-23 17:32:17,824 INFO: Check the missing values finished!
+2021-05-23 17:32:17,827 INFO: Detect outliers started
+2021-05-23 17:32:17,830 INFO: Local Outlier Factor method selected
+2021-05-23 17:32:17,871 INFO: Detected 80 outliers
+2021-05-23 17:32:17,872 INFO: Detect outliers finished
+2021-05-23 17:54:26,990 INFO: Started to check the features consistency
+2021-05-23 17:54:27,020 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 17:54:27,021 INFO: Consistency values finished!
+2021-05-23 17:54:27,025 INFO: Feature Embarked was imputer with "other"
+2021-05-23 17:54:27,027 INFO: None feature were removed because the missing values
+2021-05-23 17:54:27,028 INFO: Check the missing values finished!
+2021-05-23 17:54:27,030 INFO: Detect outliers started
+2021-05-23 17:54:27,031 INFO: Local Outlier Factor method selected
+2021-05-23 17:54:27,061 INFO: Detected 80 outliers
+2021-05-23 17:54:27,062 INFO: Detect outliers finished
+2021-05-23 17:58:55,349 INFO: Started to check the features consistency
+2021-05-23 17:58:55,379 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 17:58:55,380 INFO: Consistency values finished!
+2021-05-23 17:58:55,385 INFO: Feature Embarked was imputer with "other"
+2021-05-23 17:58:55,386 INFO: None feature were removed because the missing values
+2021-05-23 17:58:55,387 INFO: Check the missing values finished!
+2021-05-23 17:58:55,388 INFO: Detect outliers started
+2021-05-23 17:58:55,389 INFO: Local Outlier Factor method selected
+2021-05-23 17:58:55,417 INFO: Detected 80 outliers
+2021-05-23 17:58:55,418 INFO: Detect outliers finished
+2021-05-23 17:59:41,695 INFO: Started to check the features consistency
+2021-05-23 17:59:41,719 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 17:59:41,720 INFO: Consistency values finished!
+2021-05-23 17:59:41,723 INFO: Feature Embarked was imputer with "other"
+2021-05-23 17:59:41,724 INFO: None feature were removed because the missing values
+2021-05-23 17:59:41,725 INFO: Check the missing values finished!
+2021-05-23 17:59:41,726 INFO: Detect outliers started
+2021-05-23 17:59:41,726 INFO: Local Outlier Factor method selected
+2021-05-23 17:59:41,749 INFO: Detected 80 outliers
+2021-05-23 17:59:41,750 INFO: Detect outliers finished
+2021-05-23 18:06:44,797 INFO: Started to check the features consistency
+2021-05-23 18:06:44,827 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 18:06:44,828 INFO: Consistency values finished!
+2021-05-23 18:06:44,832 INFO: Feature Embarked was imputer with "other"
+2021-05-23 18:06:44,834 INFO: None feature were removed because the missing values
+2021-05-23 18:06:44,835 INFO: Check the missing values finished!
+2021-05-23 18:06:44,836 INFO: Detect outliers started
+2021-05-23 18:06:44,837 INFO: Local Outlier Factor method selected
+2021-05-23 18:06:44,868 INFO: Detected 80 outliers
+2021-05-23 18:06:44,869 INFO: Detect outliers finished
+2021-05-23 18:08:31,400 INFO: Started to check the features consistency
+2021-05-23 18:08:31,432 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 18:08:31,433 INFO: Consistency values finished!
+2021-05-23 18:08:31,439 INFO: Feature Embarked was imputer with "other"
+2021-05-23 18:08:31,441 INFO: None feature were removed because the missing values
+2021-05-23 18:08:31,442 INFO: Check the missing values finished!
+2021-05-23 18:08:31,444 INFO: Detect outliers started
+2021-05-23 18:08:31,446 INFO: Local Outlier Factor method selected
+2021-05-23 18:08:31,475 INFO: Detected 80 outliers
+2021-05-23 18:08:31,476 INFO: Detect outliers finished
+2021-05-23 18:24:23,381 INFO: Started to check the features consistency
+2021-05-23 18:24:23,410 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 18:24:23,411 INFO: Consistency values finished!
+2021-05-23 18:24:23,416 INFO: Feature Embarked was imputer with "other"
+2021-05-23 18:24:23,418 INFO: None feature were removed because the missing values
+2021-05-23 18:24:23,419 INFO: Check the missing values finished!
+2021-05-23 18:24:23,421 INFO: Detect outliers started
+2021-05-23 18:24:23,422 INFO: Local Outlier Factor method selected
+2021-05-23 18:24:23,455 INFO: Detected 80 outliers
+2021-05-23 18:24:23,456 INFO: Detect outliers finished
+2021-05-23 18:54:44,783 INFO: Started to check the features consistency
+2021-05-23 18:54:44,815 INFO: Features: ['PassengerId', 'Name', 'Ticket', 'Cabin'] were removed because its distribution
+2021-05-23 18:54:44,816 INFO: Consistency values finished!
+2021-05-23 18:54:44,823 INFO: Feature Embarked was imputer with "other"
+2021-05-23 18:54:44,825 INFO: None feature were removed because the missing values
+2021-05-23 18:54:44,826 INFO: Check the missing values finished!
+2021-05-23 18:54:44,827 INFO: Detect outliers started
+2021-05-23 18:54:44,828 INFO: Local Outlier Factor method selected
+2021-05-23 18:54:44,863 INFO: Detected 80 outliers
+2021-05-23 18:54:44,863 INFO: Detect outliers finished

@@ -1,6 +1,7 @@
 from sklearn.ensemble import RandomForestClassifier
 import xgboost as xgb
 from sklearn.model_selection import cross_val_score
+from sklearn.pipeline import Pipeline
 import numpy as np
 
 # =============================================================
@@ -18,7 +19,8 @@ def rfc_cv(n_estimators,
            max_features,
            metric,
            X,
-           y):
+           y,
+           preparessor):
     """
     Random Forest cross validation.
     This function will instantiate a random forest classifier with parameters
@@ -28,6 +30,8 @@ def rfc_cv(n_estimators,
     Our goal is to find combinations of n_estimators, min_samples_split,
     max_depth, min_samples_leaf and max_featues that maximizes the metric
     """
+    preprocessor = preparessor
+    
     estimator = RandomForestClassifier(
         n_estimators      = n_estimators,
         max_depth         = max_depth,
@@ -36,7 +40,12 @@ def rfc_cv(n_estimators,
         max_features      = max_features,
         random_state      = 42
     )
-    cval = cross_val_score(estimator, 
+    
+    # Append classifier to preparing pipeline. Now we have a full prediction pipeline.
+    clf = Pipeline(steps=[('preprocessor', preprocessor),
+                          ('classifier', estimator)])
+    
+    cval = cross_val_score(clf, 
                            X,
                            y,
                            scoring = metric,
@@ -53,13 +62,16 @@ def xgb_cv(n_estimators,
            learning_rate,
            metric,
            X,
-           y):
+           y,
+           preparessor):
     """
     XGBoost cross validation.
     This function will instantiate a XGBoost classifier this will perform 
     cross validation. The result of cross validation is returned.
     Our goal is to find combinations that maximizes the metric
     """
+    
+    preprocessor = preparessor
     
     PARAM_SCALE_POS = np.ceil( len(y[y == 0]) / len(y[y == 1]) )
     
@@ -73,7 +85,12 @@ def xgb_cv(n_estimators,
         random_state      = 42,
         verbosity         = 0
     )
-    cval = cross_val_score(estimator, 
+    
+    # Append classifier to preparing pipeline. Now we have a full prediction pipeline.
+    clf = Pipeline(steps=[('preprocessor', preprocessor),
+                          ('classifier', estimator)])
+    
+    cval = cross_val_score(clf, 
                            X,
                            y,
                            scoring = metric,
