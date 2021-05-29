@@ -4,10 +4,9 @@ OctopusML is a Machine Learning Workflow proposed in Udacity's Machine Learning 
 
 # Requirements
 
-`python >= 3.7
-
+```
+python >= 3.7
 pip install -i https://test.pypi.org/simple/ bran
-
 bayesian-optimization == 1.2.0
 
 matplotlib  == 3.2.2
@@ -25,4 +24,4 @@ sklearn == 0.23.2
 statsmodels == 0.11.1
 
 xgboost == 1.3.3
-`
+```
