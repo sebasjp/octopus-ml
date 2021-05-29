@@ -49,3 +49,5 @@ It's the component that trains 4 kinds of models proposed, like you can see in t
 
 ### Octopus Evaluate 
 It's the component that evaluates the tuned models in Octopus Train. For a metric given, this component calculates the cross-validation performance and chooses the best model. Then, all metrics are computed with the test set.
+
+# How to use OctopusML?
