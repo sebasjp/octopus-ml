@@ -112,8 +112,8 @@ results = OctoML.autoML(
                    path_output   = path_output)
 ```
 
-* In this notebook you can see an example about how to use OctopusML.
-* You can execute each step separately as well. In this notebook you can see it.
+* In this ![notebook](https://github.com/sebasjp/octopus-ml/blob/master/notebooks/octopus-app-titanic-autoML.ipynb) you can see an example about how to use OctopusML.
+* You can execute each step separately as well. In this ![notebook](https://github.com/sebasjp/octopus-ml/blob/master/notebooks/octopus-app-titanic-step-by-step.ipynb) you can see it.
 
 # Contributing ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 
