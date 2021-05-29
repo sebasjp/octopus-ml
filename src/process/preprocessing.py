@@ -10,6 +10,7 @@ from sklearn.ensemble import IsolationForest
 
 sys.path.append('../src/')
 from utils import log
+from utils import cast
 
 class RemoveFeatures:
     """
@@ -91,7 +92,7 @@ class RemoveFeatures:
         self.html += "<h3>Qualitative features removed:</h3>"
 
         for x in features_type['qualitative']:
-
+            
             freq = X_train_c[x].value_counts(normalize = True)
             freq_acum = np.cumsum(freq)
 
@@ -100,8 +101,9 @@ class RemoveFeatures:
                 # can we select the first max_cat - 1 categories
                 # the other categories will be recodified in 'other'
                 if freq_acum.iloc[max_cat - 1] >= 0.75:
-                    keep_cat = freq_acum.iloc[max_cat - 1].index
-                    df[x] = np.where(X_train_c[x].isin(keep_cat), df[x], 'other')
+                                        
+                    keep_cat = freq_acum.iloc[:(max_cat - 1)].index
+                    X_train_c[x] = np.where(X_train_c[x].isin(keep_cat), X_train_c[x], 'other')
 
                     self.logger.info('feature: ' + x + 're-categorized')
 
@@ -273,6 +275,11 @@ class RemoveFeatures:
             self.logger.info('Features: ' + str(vars_remove) + ' were removed because the missing values')
 
         self.logger.info('Check the missing values finished!')
+        
+        self.logger.info('Cast features is starting...')        
+        X_train_c = cast(X_train_c, features_type)
+        X_test_c  = cast(X_test_c, features_type)        
+        self.logger.info('Cast features finished!')
         
         return X_train_c, X_test_c, features_type, self.html
 

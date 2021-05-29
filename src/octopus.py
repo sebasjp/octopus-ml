@@ -160,7 +160,7 @@ class OctopusProcess:
 
         self.html = sta.stats_analysis(X_train, y_train, y_name, features_type)
                
-        return (X_train, y_train), (X_test, y_test), features_type, html
+        return (X_train, y_train), (X_test, y_test), features_type, self.html
 
 # ==================================================================================
 # PREPARE DATA FOR MODEL PROCESS (IMPUTER, SCALER, ENCODING)
@@ -339,9 +339,9 @@ class OctopusTrain:
                             f            = rfc_crossval,
                             pbounds      = hyp_space,
                             random_state = self.SEED,
-                            verbose      = 0)
+                            verbose      = 2)
 
-        optimizer.maximize(init_points = 20, n_iter = 50)
+        optimizer.maximize(init_points = 5, n_iter = 10)
 
         return optimizer.max
     
@@ -386,9 +386,9 @@ class OctopusTrain:
                             f            = xgb_crossval,
                             pbounds      = hyp_space,
                             random_state = self.SEED,
-                            verbose      = 0)
+                            verbose      = 2)
 
-        optimizer.maximize(init_points = 20, n_iter = 50)
+        optimizer.maximize(init_points = 5, n_iter = 10)
 
         return optimizer.max
     

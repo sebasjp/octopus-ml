@@ -47,6 +47,23 @@ def split_data(data, y_name, test_size, SEED):
 
     return X_train, X_test, y_train, y_test
 
+
+# =============================================================
+# cast features
+# =============================================================
+
+def cast(data, features_type):
+    
+    X = data.copy()
+    
+    for xname in features_type['qualitative']:
+        X[xname] = [str(x) if x is not None else None for x in X[xname]]
+    
+    for xname in features_type['quantitative']:
+        X[xname] = [float(x) if x is not None else None for x in X[xname]]
+    
+    return X
+
 # =============================================================
 # Evaluation function
 # =============================================================
