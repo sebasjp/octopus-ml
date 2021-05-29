@@ -103,7 +103,7 @@ results = OctoML.autoML(
 * In this notebook you can see an example about how to use OctopusML.
 * You can execute each step separately as well. In this notebook you can see it.
 
-### What is missing?
+# What is missing?
 If you wish to collaborate, here one list about the things that are missing:
 
 * Improve function's documentation.
@@ -120,6 +120,6 @@ If you wish to collaborate, here one list about the things that are missing:
 * Unit test to functions.
 * To add more logs to follow better the code.
 
-### License
+# License
 
 This project is built under the MIT license, for more information visit [here](https://github.com/sebasjp/octopus-ml/blob/master/LICENSE).
