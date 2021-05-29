@@ -36,8 +36,16 @@ It's the component that does the preprocessing and the statistical analysis task
    + *Adjusted boxplot (Hubert, et al. 2008):* It’s an univariate method used for skewed distributions. If one sample has at least one feature like outlier, that one will be removed.
    + *Local Outlier Factor (LOF) (Breuning, et al. 2000):* It’s an unsupervised and multivariate method based on distances, which computes the local density deviation between each point and its neighbors.
    + *Isolation Forest (Liu, et al. 2008):* It’s an unsupervised method based on decision trees and works on the principle of isolating anomalies.
-* Statistical analysis:
+* **Statistical analysis:**
    + *Bootstrap Confidence Intervals:* Given a significance level, the app computes the confidence intervals for the mean with the goal to compare the two classes that we are trying to predict. It allows us to identify the features that can explain our target.
    + *Chi-square Test:* For the categorical features the Chi-square test for independence is used to identify those that aren’t independent regarding to the target.
 These results are just informative, but in the future these ones can be added in a functionality to select features for instance.
 
+### Octopus Prepare
+It's the component that basically builds the pipeline with all transformations that are going to be used in the train process, like you can see in the figure.
+
+### Octopus Train 
+It's the component that trains 4 kinds of models proposed, like you can see in the figure. The hyperparameter tuning for Regularized Logistic Regression, the Grid Search Cross Validation is used. For Random Forest and XGBoost models, the Bayesian Optimization with Cross Validation is used.
+
+### Octopus Evaluate 
+It's the component that evaluates the tuned models in Octopus Train. For a metric given, this component calculates the cross-validation performance and chooses the best model. Then, all metrics are computed with the test set.
