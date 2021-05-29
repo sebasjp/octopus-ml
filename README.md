@@ -21,3 +21,4 @@ xgboost == 1.3.3
 
 ![OctopusML](https://github.com/sebasjp/octopus-ml/blob/master/OctopusML_complete2.png)
 
+**Octopus Process** is the component that does the preprocessing and the statistical analysis tasks.
