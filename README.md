@@ -2,6 +2,8 @@
 
 OctopusML is a Machine Learning Workflow proposed in Udacity's Machine Learning Engineer Nanodegree. One task of a Machine Learning Engineer is to design and build applications that automate the execution of predictive models. The goal of this project is to implement a machine learning workflow to increase the efficiency in supervised learning specifically in binary classification problems. The idea is that it can be seen like a baseline for any Data Analyst or Data Scientist.
 
+![Octopus](https://github.com/sebasjp/octopus-ml/blob/master/octopusimages.png)
+
 # Requirements
 
 ```
@@ -51,3 +53,73 @@ It's the component that trains 4 kinds of models proposed, like you can see in t
 It's the component that evaluates the tuned models in Octopus Train. For a metric given, this component calculates the cross-validation performance and chooses the best model. Then, all metrics are computed with the test set.
 
 # How to use OctopusML?
+To use OctopusML you need to clone this repo and then specify some configurations in one jupyter notebook:
+1. To specify all numerical an categorical variables in a dictionary:
+```
+# X features names
+features_type = {'qualitative': ['feature_1', ..., 'feature_k'],
+                'quantitative': ['feature_2', ..., 'feature_p']}
+
+# target name
+y_name = 'name_target'
+
+# create a output folder where you wish
+path_output = 'data/output/diabetes/'
+```
+2. To specify the following arguments:
+```
+config = {}
+config['test_size']        = 0.25
+config['min_missing']      = 0.25
+config['outliers_method']  = 'lof' # can be 'adjbox' or 'isolation_forest' as well
+config['alpha_sta']        = 0.05
+config['strategy_missing'] = 'median' # can be 'mean' as well
+config['method_scale']     = 'standard' # can be 'robust' as well
+config['metric_train']     = 'roc_auc' # can be any metric in sklearn
+config['seed']             = 42
+config['njobs']            = -1
+```
+3. Now, you can execute it!
+```
+from octopus import OctopusML
+OctoML = OctopusML(
+                test_size        = config['test_size'],
+                min_missing      = config['min_missing'],
+                outliers_method  = config['outliers_method'],
+                alpha_sta        = config['alpha_sta'],
+                strategy_missing = config['strategy_missing'],
+                method_scale     = config['method_scale'],
+                metric_train     = config['metric_train'],
+                njobs            = config['njobs'],
+                seed             = config['seed'])
+                
+results = OctoML.autoML(
+                   data          = data,
+                   y_name        = y_name,
+                   features_type = features_type,
+                   path_output   = path_output)
+```
+
+* In this notebook you can see an example about how to use OctopusML.
+* You can execute each step separately as well. In this notebook you can see it.
+
+### What is missing?
+If you wish to collaborate, here one list about the things that are missing:
+
+* Improve function's documentation.
+* More options to handle missing values (imputer).
+* To add different posibilities to recognize missing values (nan, none, ?, anything specified by the user).
+* Methods to deal with imbalanced datasets.
+* To add at HTML the metrics results in evaluate.
+* Add feature importances.
+* Feature selection; some ideas:
+   * Based on statistical analysis.
+   * Based on feature importances.
+* Recommend if the model is overfitted or not.
+* Interpretable Machine Learning.
+* Unit test to functions.
+* To add more logs to follow better the code.
+
+### License
+
+This project is built under the MIT license, for more information visit [here](https://github.com/sebasjp/octopus-ml/blob/master/LICENSE).
