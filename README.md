@@ -66,7 +66,7 @@ features_type = {'qualitative': ['feature_1', ..., 'feature_k'],
 y_name = 'name_target'
 
 # create a output folder where you wish
-path_output = 'data/output/diabetes/'
+path_output = 'data/output/project/'
 ```
 2. To specify the following arguments:
 ```
