@@ -1,5 +1,7 @@
 # OctopusML: A workflow for AutoML
 
+[![status dev](https://img.shields.io/badge/status-dev-sucess.svg)](https://github.com/sebasjp/octopus-ml) [![dev python](https://img.shields.io/badge/python-v3.7-informational.svg)](https://github.com/sebasjp/octopus-ml)
+
 OctopusML is a Machine Learning Workflow proposed in Udacity's Machine Learning Engineer Nanodegree. One task of a Machine Learning Engineer is to design and build applications that automate the execution of predictive models. The goal of this project is to implement a machine learning workflow to increase the efficiency in supervised learning specifically in binary classification problems. The idea is that it can be seen like a baseline for any Data Analyst or Data Scientist.
 
 ![Octopus](https://github.com/sebasjp/octopus-ml/blob/master/octopusimages.png)
@@ -103,7 +105,8 @@ results = OctoML.autoML(
 * In this notebook you can see an example about how to use OctopusML.
 * You can execute each step separately as well. In this notebook you can see it.
 
-# What is missing?
+# Contributing ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+
 If you wish to collaborate, here one list about the things that are missing:
 
 * Improve function's documentation.
@@ -120,6 +123,9 @@ If you wish to collaborate, here one list about the things that are missing:
 * Unit test to functions.
 * To add more logs to follow better the code.
 
-# License
+# License [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/sebasjp/octopus-ml/blob/master/LICENSE)
 
 This project is built under the MIT license, for more information visit [here](https://github.com/sebasjp/octopus-ml/blob/master/LICENSE).
+
+# References
+
