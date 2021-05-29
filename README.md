@@ -21,22 +21,23 @@ xgboost == 1.3.3
 
 ![OctopusML](https://github.com/sebasjp/octopus-ml/blob/master/OctopusML_complete.png)
 
-**Octopus Process** is the component that does the preprocessing and the statistical analysis tasks.
+### Octopus Process 
+It's the component that does the preprocessing and the statistical analysis tasks.
 
-1. Split data in train and test sets.
-2. Remove categorical features: 
-   + It’s going to allow a maximum of 10 categories in a feature.  If one feature has more than 10 and it has 9 categories with more than 75% of data, the remaining categories are going to be categorized like ‘others’.
+* Split data in train and test sets.
+* **Remove categorical features:** 
+   + It's going to allow a maximum of 10 categories in a feature. If one feature has more than 10 and it has 9 categories with more than 75% of data, the remaining categories are going to be categorized like `others`.
    + If its first 9 categories don’t collect at least of the 75% data, the feature will be removed.
    + Also, if the feature has just one category, it will be removed.
    + If just one category collects more than 99% of records, the feature will be removed.
-3. Remove numerical features: If just one value collects more than 99% of records, the feature will be removed.
-4. Check the missing values: If one feature has more than a x% of missing values, it’s going to be removed. The x% value can be given by the analyst.
-5. Outlier detection: Three methods are available.
-   + Adjusted boxplot (Hubert, et al. 2008): It’s an univariate method used for skewed distributions. If one sample has at least one feature like outlier, that one will be removed.
-   + Local Outlier Factor (LOF) (Breuning, et al. 2000): It’s an unsupervised and multivariate method based on distances, which computes the local density deviation between each point and its neighbors.
-   + Isolation Forest (Liu, et al. 2008): It’s an unsupervised method based on decision trees and works on the principle of isolating anomalies.
-6. Statistical analysis:
-   + Bootstrap Confidence Intervals: Given a significance level, the app computes the confidence intervals for the mean with the goal to compare the two classes that we are trying to predict. It allows us to identify the features that can explain our target.
-   + Chi-square Test: For the categorical features the Chi-square test for independence is used to identify those that aren’t independent regarding to the target.
+* **Remove numerical features:** If just one value collects more than 99% of records, the feature will be removed.
+* **Check the missing values:** If one feature has more than a x% of missing values, it’s going to be removed. The x% value can be given by the analyst.
+* **Outlier detection:** Three methods are available.
+   + *Adjusted boxplot (Hubert, et al. 2008):* It’s an univariate method used for skewed distributions. If one sample has at least one feature like outlier, that one will be removed.
+   + *Local Outlier Factor (LOF) (Breuning, et al. 2000):* It’s an unsupervised and multivariate method based on distances, which computes the local density deviation between each point and its neighbors.
+   + *Isolation Forest (Liu, et al. 2008):* It’s an unsupervised method based on decision trees and works on the principle of isolating anomalies.
+* Statistical analysis:
+   + *Bootstrap Confidence Intervals:* Given a significance level, the app computes the confidence intervals for the mean with the goal to compare the two classes that we are trying to predict. It allows us to identify the features that can explain our target.
+   + *Chi-square Test:* For the categorical features the Chi-square test for independence is used to identify those that aren’t independent regarding to the target.
 These results are just informative, but in the future these ones can be added in a functionality to select features for instance.
 
