@@ -54,6 +54,16 @@ It's the component that trains 4 kinds of models proposed, like you can see in t
 ### Octopus Evaluate 
 It's the component that evaluates the tuned models in Octopus Train. For a metric given, this component calculates the cross-validation performance and chooses the best model. Then, all metrics are computed with the test set.
 
+### But at the end what does return OctopusML?
+Well, It returns a dictionary with 5 components:
+1. **train:** tuple with the train set, i.e. `(X_train, y_train)`.
+2. **test:** tuple with the test set, i.e. `(X_test, y_test)`.
+3. **models_trained:** a list of tuples with the pipeline trained, i.e. `[('LR', pipeline), ('LRR', pipeline), ('RF', pipeline), ('XGB', pipeline)]`.
+4. **best_model:** a tuple with the best model based on the metric given `('name', pipeline)`.
+5. **metrics:** a pandas.DataFrame with the following metrics: accuracy, auc roc, recall, precision and f1-score. These ones are calculate for all models in *models_trained*.
+
+In addition a report.html file is generated with information about the *Octopus Process*.
+
 # How to use OctopusML?
 To use OctopusML you need to clone this repo and then specify some configurations in one jupyter notebook:
 1. To specify all numerical an categorical variables in a dictionary:
